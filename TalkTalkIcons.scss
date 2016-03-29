@@ -1,0 +1,2353 @@
+//scss-lint:disable SelectorFormat
+
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.110.0/fonts/inlife/' !default;
+$hash: 'af54d7683dc3ddd24b63ee77972d0071';
+
+@font-face {
+    font-family: 'TalkTalkIcons';
+    src: url( $tt-icon-font-path + 'TalkTalkIcons.eot?' + $hash );
+    src: url( $tt-icon-font-path + 'TalkTalkIcons.eot?#iefix' ) format( 'embedded-opentype' ),
+    url( $tt-icon-font-path + 'TalkTalkIcons.woff?' + $hash ) format( 'woff' ),
+    url( $tt-icon-font-path + 'TalkTalkIcons.ttf?' + $hash ) format( 'truetype' );
+    font-weight: normal;
+    font-style: normal;
+}
+
+%tt-icon {
+    display: inline-block;
+    font-family: 'TalkTalkIcons';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    speak: none;
+    vertical-align: middle;
+ }
+
+.tt_icon {
+
+    &-0-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f101'; }
+    }
+
+    &-0-circle {
+        @extend %tt-icon;
+        &:before { content: '\f102'; }
+    }
+
+    &-0 {
+        @extend %tt-icon;
+        &:before { content: '\f103'; }
+    }
+
+    &-1-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f104'; }
+    }
+
+    &-1-circle {
+        @extend %tt-icon;
+        &:before { content: '\f105'; }
+    }
+
+    &-1 {
+        @extend %tt-icon;
+        &:before { content: '\f106'; }
+    }
+
+    &-1000texts-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f107'; }
+    }
+
+    &-1000texts-circle {
+        @extend %tt-icon;
+        &:before { content: '\f108'; }
+    }
+
+    &-1000texts {
+        @extend %tt-icon;
+        &:before { content: '\f109'; }
+    }
+
+    &-100ukminutes-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f10a'; }
+    }
+
+    &-100ukminutes-circle {
+        @extend %tt-icon;
+        &:before { content: '\f10b'; }
+    }
+
+    &-100ukminutes {
+        @extend %tt-icon;
+        &:before { content: '\f10c'; }
+    }
+
+    &-150data-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f10d'; }
+    }
+
+    &-150data-circle {
+        @extend %tt-icon;
+        &:before { content: '\f10e'; }
+    }
+
+    &-150data {
+        @extend %tt-icon;
+        &:before { content: '\f10f'; }
+    }
+
+    &-2-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f110'; }
+    }
+
+    &-2-circle {
+        @extend %tt-icon;
+        &:before { content: '\f111'; }
+    }
+
+    &-2 {
+        @extend %tt-icon;
+        &:before { content: '\f112'; }
+    }
+
+    &-200globalminutes-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f113'; }
+    }
+
+    &-200globalminutes-circle {
+        @extend %tt-icon;
+        &:before { content: '\f114'; }
+    }
+
+    &-200globalminutes {
+        @extend %tt-icon;
+        &:before { content: '\f115'; }
+    }
+
+    &-250ukminutes-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f116'; }
+    }
+
+    &-250ukminutes-circle {
+        @extend %tt-icon;
+        &:before { content: '\f117'; }
+    }
+
+    &-250ukminutes {
+        @extend %tt-icon;
+        &:before { content: '\f118'; }
+    }
+
+    &-3-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f119'; }
+    }
+
+    &-3-circle {
+        @extend %tt-icon;
+        &:before { content: '\f11a'; }
+    }
+
+    &-3 {
+        @extend %tt-icon;
+        &:before { content: '\f11b'; }
+    }
+
+    &-4-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f11c'; }
+    }
+
+    &-4-circle {
+        @extend %tt-icon;
+        &:before { content: '\f11d'; }
+    }
+
+    &-4 {
+        @extend %tt-icon;
+        &:before { content: '\f11e'; }
+    }
+
+    &-5-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f11f'; }
+    }
+
+    &-5-circle {
+        @extend %tt-icon;
+        &:before { content: '\f120'; }
+    }
+
+    &-5 {
+        @extend %tt-icon;
+        &:before { content: '\f121'; }
+    }
+
+    &-500data-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f122'; }
+    }
+
+    &-500data-circle {
+        @extend %tt-icon;
+        &:before { content: '\f123'; }
+    }
+
+    &-500data {
+        @extend %tt-icon;
+        &:before { content: '\f124'; }
+    }
+
+    &-500globalminutes-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f125'; }
+    }
+
+    &-500globalminutes-circle {
+        @extend %tt-icon;
+        &:before { content: '\f126'; }
+    }
+
+    &-500globalminutes {
+        @extend %tt-icon;
+        &:before { content: '\f127'; }
+    }
+
+    &-500texts-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f128'; }
+    }
+
+    &-500texts-circle {
+        @extend %tt-icon;
+        &:before { content: '\f129'; }
+    }
+
+    &-500texts {
+        @extend %tt-icon;
+        &:before { content: '\f12a'; }
+    }
+
+    &-6-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f12b'; }
+    }
+
+    &-6-circle {
+        @extend %tt-icon;
+        &:before { content: '\f12c'; }
+    }
+
+    &-6 {
+        @extend %tt-icon;
+        &:before { content: '\f12d'; }
+    }
+
+    &-7-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f12e'; }
+    }
+
+    &-7-circle {
+        @extend %tt-icon;
+        &:before { content: '\f12f'; }
+    }
+
+    &-7 {
+        @extend %tt-icon;
+        &:before { content: '\f130'; }
+    }
+
+    &-8-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f131'; }
+    }
+
+    &-8-circle {
+        @extend %tt-icon;
+        &:before { content: '\f132'; }
+    }
+
+    &-8 {
+        @extend %tt-icon;
+        &:before { content: '\f133'; }
+    }
+
+    &-9-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f134'; }
+    }
+
+    &-9-circle {
+        @extend %tt-icon;
+        &:before { content: '\f135'; }
+    }
+
+    &-9 {
+        @extend %tt-icon;
+        &:before { content: '\f136'; }
+    }
+
+    &-ICN-alert {
+        @extend %tt-icon;
+        &:before { content: '\f137'; }
+    }
+
+    &-TalkTalk-logo {
+        @extend %tt-icon;
+        &:before { content: '\f138'; }
+    }
+
+    &-analysis-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f139'; }
+    }
+
+    &-analysis-circle {
+        @extend %tt-icon;
+        &:before { content: '\f13a'; }
+    }
+
+    &-analysis {
+        @extend %tt-icon;
+        &:before { content: '\f13b'; }
+    }
+
+    &-antivirus-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f13c'; }
+    }
+
+    &-antivirus-circle {
+        @extend %tt-icon;
+        &:before { content: '\f13d'; }
+    }
+
+    &-antivirus {
+        @extend %tt-icon;
+        &:before { content: '\f13e'; }
+    }
+
+    &-anytimeukcalls-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f13f'; }
+    }
+
+    &-anytimeukcalls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f140'; }
+    }
+
+    &-anytimeukcalls {
+        @extend %tt-icon;
+        &:before { content: '\f141'; }
+    }
+
+    &-arrowdown-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f142'; }
+    }
+
+    &-arrowdown-circle {
+        @extend %tt-icon;
+        &:before { content: '\f143'; }
+    }
+
+    &-arrowdown {
+        @extend %tt-icon;
+        &:before { content: '\f144'; }
+    }
+
+    &-arrowleft-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f145'; }
+    }
+
+    &-arrowleft-circle {
+        @extend %tt-icon;
+        &:before { content: '\f146'; }
+    }
+
+    &-arrowleft {
+        @extend %tt-icon;
+        &:before { content: '\f147'; }
+    }
+
+    &-arrowright-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f148'; }
+    }
+
+    &-arrowright-circle {
+        @extend %tt-icon;
+        &:before { content: '\f149'; }
+    }
+
+    &-arrowright {
+        @extend %tt-icon;
+        &:before { content: '\f14a'; }
+    }
+
+    &-arrowup-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f14b'; }
+    }
+
+    &-arrowup-circle {
+        @extend %tt-icon;
+        &:before { content: '\f14c'; }
+    }
+
+    &-arrowup {
+        @extend %tt-icon;
+        &:before { content: '\f14d'; }
+    }
+
+    &-article-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f14e'; }
+    }
+
+    &-article-circle {
+        @extend %tt-icon;
+        &:before { content: '\f14f'; }
+    }
+
+    &-article {
+        @extend %tt-icon;
+        &:before { content: '\f150'; }
+    }
+
+    &-articledecisiontree-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f151'; }
+    }
+
+    &-articledecisiontree-circle {
+        @extend %tt-icon;
+        &:before { content: '\f152'; }
+    }
+
+    &-articledecisiontree {
+        @extend %tt-icon;
+        &:before { content: '\f153'; }
+    }
+
+    &-asian-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f154'; }
+    }
+
+    &-asian-circle {
+        @extend %tt-icon;
+        &:before { content: '\f155'; }
+    }
+
+    &-asian {
+        @extend %tt-icon;
+        &:before { content: '\f156'; }
+    }
+
+    &-bankingprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f157'; }
+    }
+
+    &-bankingprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f158'; }
+    }
+
+    &-bankingprotection {
+        @extend %tt-icon;
+        &:before { content: '\f159'; }
+    }
+
+    &-basket-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f15a'; }
+    }
+
+    &-basket-circle {
+        @extend %tt-icon;
+        &:before { content: '\f15b'; }
+    }
+
+    &-basket {
+        @extend %tt-icon;
+        &:before { content: '\f15c'; }
+    }
+
+    &-bestonline-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f15d'; }
+    }
+
+    &-bestonline-circle {
+        @extend %tt-icon;
+        &:before { content: '\f15e'; }
+    }
+
+    &-bestonline {
+        @extend %tt-icon;
+        &:before { content: '\f15f'; }
+    }
+
+    &-billbusters-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f160'; }
+    }
+
+    &-billbusters-circle {
+        @extend %tt-icon;
+        &:before { content: '\f161'; }
+    }
+
+    &-billbusters {
+        @extend %tt-icon;
+        &:before { content: '\f162'; }
+    }
+
+    &-billing-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f163'; }
+    }
+
+    &-billing-circle {
+        @extend %tt-icon;
+        &:before { content: '\f164'; }
+    }
+
+    &-billing {
+        @extend %tt-icon;
+        &:before { content: '\f165'; }
+    }
+
+    &-bin-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f166'; }
+    }
+
+    &-bin-circle {
+        @extend %tt-icon;
+        &:before { content: '\f167'; }
+    }
+
+    &-bin {
+        @extend %tt-icon;
+        &:before { content: '\f168'; }
+    }
+
+    &-blackberry-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f169'; }
+    }
+
+    &-blackberry-circle {
+        @extend %tt-icon;
+        &:before { content: '\f16a'; }
+    }
+
+    &-blackberry {
+        @extend %tt-icon;
+        &:before { content: '\f16b'; }
+    }
+
+    &-blockquote1 {
+        @extend %tt-icon;
+        &:before { content: '\f16c'; }
+    }
+
+    &-blockquote2 {
+        @extend %tt-icon;
+        &:before { content: '\f16d'; }
+    }
+
+    &-bookmark-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f16e'; }
+    }
+
+    &-bookmark-circle {
+        @extend %tt-icon;
+        &:before { content: '\f16f'; }
+    }
+
+    &-bookmark {
+        @extend %tt-icon;
+        &:before { content: '\f170'; }
+    }
+
+    &-broadband-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f171'; }
+    }
+
+    &-broadband-circle {
+        @extend %tt-icon;
+        &:before { content: '\f172'; }
+    }
+
+    &-broadband {
+        @extend %tt-icon;
+        &:before { content: '\f173'; }
+    }
+
+    &-browsingprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f174'; }
+    }
+
+    &-browsingprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f175'; }
+    }
+
+    &-browsingprotection {
+        @extend %tt-icon;
+        &:before { content: '\f176'; }
+    }
+
+    &-callingcircle-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f177'; }
+    }
+
+    &-callingcircle-circle {
+        @extend %tt-icon;
+        &:before { content: '\f178'; }
+    }
+
+    &-callingcircle {
+        @extend %tt-icon;
+        &:before { content: '\f179'; }
+    }
+
+    &-callingfeature-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f17a'; }
+    }
+
+    &-callingfeature-circle {
+        @extend %tt-icon;
+        &:before { content: '\f17b'; }
+    }
+
+    &-callingfeature {
+        @extend %tt-icon;
+        &:before { content: '\f17c'; }
+    }
+
+    &-cog1-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f17d'; }
+    }
+
+    &-cog1-circle {
+        @extend %tt-icon;
+        &:before { content: '\f17e'; }
+    }
+
+    &-cog1 {
+        @extend %tt-icon;
+        &:before { content: '\f17f'; }
+    }
+
+    &-cog2-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f180'; }
+    }
+
+    &-cog2-circle {
+        @extend %tt-icon;
+        &:before { content: '\f181'; }
+    }
+
+    &-cog2 {
+        @extend %tt-icon;
+        &:before { content: '\f182'; }
+    }
+
+    &-community-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f183'; }
+    }
+
+    &-community-circle {
+        @extend %tt-icon;
+        &:before { content: '\f184'; }
+    }
+
+    &-community {
+        @extend %tt-icon;
+        &:before { content: '\f185'; }
+    }
+
+    &-contacts-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f186'; }
+    }
+
+    &-contacts-circle {
+        @extend %tt-icon;
+        &:before { content: '\f187'; }
+    }
+
+    &-contacts {
+        @extend %tt-icon;
+        &:before { content: '\f188'; }
+    }
+
+    &-csv-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f189'; }
+    }
+
+    &-csv-circle {
+        @extend %tt-icon;
+        &:before { content: '\f18a'; }
+    }
+
+    &-csv {
+        @extend %tt-icon;
+        &:before { content: '\f18b'; }
+    }
+
+    &-delivery-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f18c'; }
+    }
+
+    &-delivery-circle {
+        @extend %tt-icon;
+        &:before { content: '\f18d'; }
+    }
+
+    &-delivery {
+        @extend %tt-icon;
+        &:before { content: '\f18e'; }
+    }
+
+    &-directdebit-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f18f'; }
+    }
+
+    &-directdebit-circle {
+        @extend %tt-icon;
+        &:before { content: '\f190'; }
+    }
+
+    &-directdebit {
+        @extend %tt-icon;
+        &:before { content: '\f191'; }
+    }
+
+    &-download-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f192'; }
+    }
+
+    &-download-circle {
+        @extend %tt-icon;
+        &:before { content: '\f193'; }
+    }
+
+    &-download {
+        @extend %tt-icon;
+        &:before { content: '\f194'; }
+    }
+
+    &-edit-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f195'; }
+    }
+
+    &-edit-circle {
+        @extend %tt-icon;
+        &:before { content: '\f196'; }
+    }
+
+    &-edit {
+        @extend %tt-icon;
+        &:before { content: '\f197'; }
+    }
+
+    &-email-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f198'; }
+    }
+
+    &-email-circle {
+        @extend %tt-icon;
+        &:before { content: '\f199'; }
+    }
+
+    &-email {
+        @extend %tt-icon;
+        &:before { content: '\f19a'; }
+    }
+
+    &-entertainment-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f19b'; }
+    }
+
+    &-entertainment-circle {
+        @extend %tt-icon;
+        &:before { content: '\f19c'; }
+    }
+
+    &-entertainment {
+        @extend %tt-icon;
+        &:before { content: '\f19d'; }
+    }
+
+    &-entertainmentextra-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f19e'; }
+    }
+
+    &-entertainmentextra-circle {
+        @extend %tt-icon;
+        &:before { content: '\f19f'; }
+    }
+
+    &-entertainmentextra {
+        @extend %tt-icon;
+        &:before { content: '\f1a0'; }
+    }
+
+    &-exclamation-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1a1'; }
+    }
+
+    &-exclamation-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1a2'; }
+    }
+
+    &-exclamation {
+        @extend %tt-icon;
+        &:before { content: '\f1a3'; }
+    }
+
+    &-familyprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1a4'; }
+    }
+
+    &-familyprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1a5'; }
+    }
+
+    &-familyprotection {
+        @extend %tt-icon;
+        &:before { content: '\f1a6'; }
+    }
+
+    &-faqs-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1a7'; }
+    }
+
+    &-faqs-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1a8'; }
+    }
+
+    &-faqs {
+        @extend %tt-icon;
+        &:before { content: '\f1a9'; }
+    }
+
+    &-fast-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1aa'; }
+    }
+
+    &-fast-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1ab'; }
+    }
+
+    &-fast {
+        @extend %tt-icon;
+        &:before { content: '\f1ac'; }
+    }
+
+    &-fastforward-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1ad'; }
+    }
+
+    &-fastforward-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1ae'; }
+    }
+
+    &-fastforward {
+        @extend %tt-icon;
+        &:before { content: '\f1af'; }
+    }
+
+    &-folder-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1b0'; }
+    }
+
+    &-folder-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1b1'; }
+    }
+
+    &-folder {
+        @extend %tt-icon;
+        &:before { content: '\f1b2'; }
+    }
+
+    &-frequentcalls-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1b3'; }
+    }
+
+    &-frequentcalls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1b4'; }
+    }
+
+    &-frequentcalls {
+        @extend %tt-icon;
+        &:before { content: '\f1b5'; }
+    }
+
+    &-graph-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1b6'; }
+    }
+
+    &-graph-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1b7'; }
+    }
+
+    &-graph {
+        @extend %tt-icon;
+        &:before { content: '\f1b8'; }
+    }
+
+    &-greatvalue-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1b9'; }
+    }
+
+    &-greatvalue-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1ba'; }
+    }
+
+    &-greatvalue {
+        @extend %tt-icon;
+        &:before { content: '\f1bb'; }
+    }
+
+    &-grids-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1bc'; }
+    }
+
+    &-grids-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1bd'; }
+    }
+
+    &-grids {
+        @extend %tt-icon;
+        &:before { content: '\f1be'; }
+    }
+
+    &-home-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1bf'; }
+    }
+
+    &-home-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1c0'; }
+    }
+
+    &-home {
+        @extend %tt-icon;
+        &:before { content: '\f1c1'; }
+    }
+
+    &-homesafe-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1c2'; }
+    }
+
+    &-homesafe-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1c3'; }
+    }
+
+    &-homesafe {
+        @extend %tt-icon;
+        &:before { content: '\f1c4'; }
+    }
+
+    &-information-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1c5'; }
+    }
+
+    &-information-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1c6'; }
+    }
+
+    &-information {
+        @extend %tt-icon;
+        &:before { content: '\f1c7'; }
+    }
+
+    &-internationalcalls-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1c8'; }
+    }
+
+    &-internationalcalls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1c9'; }
+    }
+
+    &-internationalcalls {
+        @extend %tt-icon;
+        &:before { content: '\f1ca'; }
+    }
+
+    &-kids-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1cb'; }
+    }
+
+    &-kids-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1cc'; }
+    }
+
+    &-kids {
+        @extend %tt-icon;
+        &:before { content: '\f1cd'; }
+    }
+
+    &-laptop-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1ce'; }
+    }
+
+    &-laptop-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1cf'; }
+    }
+
+    &-laptop {
+        @extend %tt-icon;
+        &:before { content: '\f1d0'; }
+    }
+
+    &-link-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1d1'; }
+    }
+
+    &-link-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1d2'; }
+    }
+
+    &-link {
+        @extend %tt-icon;
+        &:before { content: '\f1d3'; }
+    }
+
+    &-list-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1d4'; }
+    }
+
+    &-list-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1d5'; }
+    }
+
+    &-list {
+        @extend %tt-icon;
+        &:before { content: '\f1d6'; }
+    }
+
+    &-livechat-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1d7'; }
+    }
+
+    &-livechat-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1d8'; }
+    }
+
+    &-livechat {
+        @extend %tt-icon;
+        &:before { content: '\f1d9'; }
+    }
+
+    &-malware-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1da'; }
+    }
+
+    &-malware-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1db'; }
+    }
+
+    &-malware {
+        @extend %tt-icon;
+        &:before { content: '\f1dc'; }
+    }
+
+    &-menu-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1dd'; }
+    }
+
+    &-menu-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1de'; }
+    }
+
+    &-menu {
+        @extend %tt-icon;
+        &:before { content: '\f1df'; }
+    }
+
+    &-minus-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1e0'; }
+    }
+
+    &-minus-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1e1'; }
+    }
+
+    &-minus {
+        @extend %tt-icon;
+        &:before { content: '\f1e2'; }
+    }
+
+    &-mobile-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1e3'; }
+    }
+
+    &-mobile-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1e4'; }
+    }
+
+    &-mobile {
+        @extend %tt-icon;
+        &:before { content: '\f1e5'; }
+    }
+
+    &-mobileboost-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1e6'; }
+    }
+
+    &-mobileboost-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1e7'; }
+    }
+
+    &-mobileboost {
+        @extend %tt-icon;
+        &:before { content: '\f1e8'; }
+    }
+
+    &-mobileprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1e9'; }
+    }
+
+    &-mobileprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1ea'; }
+    }
+
+    &-mobileprotection {
+        @extend %tt-icon;
+        &:before { content: '\f1eb'; }
+    }
+
+    &-mobilesafe-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1ec'; }
+    }
+
+    &-mobilesafe-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1ed'; }
+    }
+
+    &-mobilesafe {
+        @extend %tt-icon;
+        &:before { content: '\f1ee'; }
+    }
+
+    &-more-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1ef'; }
+    }
+
+    &-more-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1f0'; }
+    }
+
+    &-more {
+        @extend %tt-icon;
+        &:before { content: '\f1f1'; }
+    }
+
+    &-movies-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1f2'; }
+    }
+
+    &-movies-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1f3'; }
+    }
+
+    &-movies {
+        @extend %tt-icon;
+        &:before { content: '\f1f4'; }
+    }
+
+    &-multideviceprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1f5'; }
+    }
+
+    &-multideviceprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1f6'; }
+    }
+
+    &-multideviceprotection {
+        @extend %tt-icon;
+        &:before { content: '\f1f7'; }
+    }
+
+    &-music-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1f8'; }
+    }
+
+    &-music-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1f9'; }
+    }
+
+    &-music {
+        @extend %tt-icon;
+        &:before { content: '\f1fa'; }
+    }
+
+    &-myaccount-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1fb'; }
+    }
+
+    &-myaccount-circle {
+        @extend %tt-icon;
+        &:before { content: '\f1fc'; }
+    }
+
+    &-myaccount {
+        @extend %tt-icon;
+        &:before { content: '\f1fd'; }
+    }
+
+    &-n-exclamation {
+        @extend %tt-icon;
+        &:before { content: '\f1fe'; }
+    }
+
+    &-nameyourplan-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f1ff'; }
+    }
+
+    &-nameyourplan-circle {
+        @extend %tt-icon;
+        &:before { content: '\f200'; }
+    }
+
+    &-nameyourplan {
+        @extend %tt-icon;
+        &:before { content: '\f201'; }
+    }
+
+    &-nav-help {
+        @extend %tt-icon;
+        &:before { content: '\f202'; }
+    }
+
+    &-nav-mail {
+        @extend %tt-icon;
+        &:before { content: '\f203'; }
+    }
+
+    &-nav-my-account {
+        @extend %tt-icon;
+        &:before { content: '\f204'; }
+    }
+
+    &-nav-news {
+        @extend %tt-icon;
+        &:before { content: '\f205'; }
+    }
+
+    &-nav-product {
+        @extend %tt-icon;
+        &:before { content: '\f206'; }
+    }
+
+    &-newwindow {
+        @extend %tt-icon;
+        &:before { content: '\f207'; }
+    }
+
+    &-newwindow_circle {
+        @extend %tt-icon;
+        &:before { content: '\f208'; }
+    }
+
+    &-newwindow_circle_fill {
+        @extend %tt-icon;
+        &:before { content: '\f209'; }
+    }
+
+    &-offers-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f20a'; }
+    }
+
+    &-offers-circle {
+        @extend %tt-icon;
+        &:before { content: '\f20b'; }
+    }
+
+    &-offers {
+        @extend %tt-icon;
+        &:before { content: '\f20c'; }
+    }
+
+    &-parentalcontrol-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f20d'; }
+    }
+
+    &-parentalcontrol-circle {
+        @extend %tt-icon;
+        &:before { content: '\f20e'; }
+    }
+
+    &-parentalcontrol {
+        @extend %tt-icon;
+        &:before { content: '\f20f'; }
+    }
+
+    &-pause-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f210'; }
+    }
+
+    &-pause-circle {
+        @extend %tt-icon;
+        &:before { content: '\f211'; }
+    }
+
+    &-pause {
+        @extend %tt-icon;
+        &:before { content: '\f212'; }
+    }
+
+    &-pcprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f213'; }
+    }
+
+    &-pcprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f214'; }
+    }
+
+    &-pcprotection {
+        @extend %tt-icon;
+        &:before { content: '\f215'; }
+    }
+
+    &-pdf-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f216'; }
+    }
+
+    &-pdf-circle {
+        @extend %tt-icon;
+        &:before { content: '\f217'; }
+    }
+
+    &-pdf {
+        @extend %tt-icon;
+        &:before { content: '\f218'; }
+    }
+
+    &-phishing-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f219'; }
+    }
+
+    &-phishing-circle {
+        @extend %tt-icon;
+        &:before { content: '\f21a'; }
+    }
+
+    &-phishing {
+        @extend %tt-icon;
+        &:before { content: '\f21b'; }
+    }
+
+    &-phone-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f21c'; }
+    }
+
+    &-phone-circle {
+        @extend %tt-icon;
+        &:before { content: '\f21d'; }
+    }
+
+    &-phone {
+        @extend %tt-icon;
+        &:before { content: '\f21e'; }
+    }
+
+    &-picon-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f21f'; }
+    }
+
+    &-picon-circle {
+        @extend %tt-icon;
+        &:before { content: '\f220'; }
+    }
+
+    &-picon {
+        @extend %tt-icon;
+        &:before { content: '\f221'; }
+    }
+
+    &-play-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f222'; }
+    }
+
+    &-play-circle {
+        @extend %tt-icon;
+        &:before { content: '\f223'; }
+    }
+
+    &-play {
+        @extend %tt-icon;
+        &:before { content: '\f224'; }
+    }
+
+    &-plus-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f225'; }
+    }
+
+    &-plus-circle {
+        @extend %tt-icon;
+        &:before { content: '\f226'; }
+    }
+
+    &-plus {
+        @extend %tt-icon;
+        &:before { content: '\f227'; }
+    }
+
+    &-ppt-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f228'; }
+    }
+
+    &-ppt-circle {
+        @extend %tt-icon;
+        &:before { content: '\f229'; }
+    }
+
+    &-ppt {
+        @extend %tt-icon;
+        &:before { content: '\f22a'; }
+    }
+
+    &-print-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f22b'; }
+    }
+
+    &-print-circle {
+        @extend %tt-icon;
+        &:before { content: '\f22c'; }
+    }
+
+    &-print {
+        @extend %tt-icon;
+        &:before { content: '\f22d'; }
+    }
+
+    &-protectioninhome-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f22e'; }
+    }
+
+    &-protectioninhome-circle {
+        @extend %tt-icon;
+        &:before { content: '\f22f'; }
+    }
+
+    &-protectioninhome {
+        @extend %tt-icon;
+        &:before { content: '\f230'; }
+    }
+
+    &-protectyourmoney-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f231'; }
+    }
+
+    &-protectyourmoney-circle {
+        @extend %tt-icon;
+        &:before { content: '\f232'; }
+    }
+
+    &-protectyourmoney {
+        @extend %tt-icon;
+        &:before { content: '\f233'; }
+    }
+
+    &-ransomware-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f234'; }
+    }
+
+    &-ransomware-circle {
+        @extend %tt-icon;
+        &:before { content: '\f235'; }
+    }
+
+    &-ransomware {
+        @extend %tt-icon;
+        &:before { content: '\f236'; }
+    }
+
+    &-record-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f237'; }
+    }
+
+    &-record-circle {
+        @extend %tt-icon;
+        &:before { content: '\f238'; }
+    }
+
+    &-record {
+        @extend %tt-icon;
+        &:before { content: '\f239'; }
+    }
+
+    &-refresh-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f23a'; }
+    }
+
+    &-refresh-circle {
+        @extend %tt-icon;
+        &:before { content: '\f23b'; }
+    }
+
+    &-refresh {
+        @extend %tt-icon;
+        &:before { content: '\f23c'; }
+    }
+
+    &-reliable-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f23d'; }
+    }
+
+    &-reliable-circle {
+        @extend %tt-icon;
+        &:before { content: '\f23e'; }
+    }
+
+    &-reliable {
+        @extend %tt-icon;
+        &:before { content: '\f23f'; }
+    }
+
+    &-rewind-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f240'; }
+    }
+
+    &-rewind-circle {
+        @extend %tt-icon;
+        &:before { content: '\f241'; }
+    }
+
+    &-rewind {
+        @extend %tt-icon;
+        &:before { content: '\f242'; }
+    }
+
+    &-routerupdate-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f243'; }
+    }
+
+    &-routerupdate-circle {
+        @extend %tt-icon;
+        &:before { content: '\f244'; }
+    }
+
+    &-routerupdate {
+        @extend %tt-icon;
+        &:before { content: '\f245'; }
+    }
+
+    &-scissors {
+        @extend %tt-icon;
+        &:before { content: '\f246'; }
+    }
+
+    &-search-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f247'; }
+    }
+
+    &-search-circle {
+        @extend %tt-icon;
+        &:before { content: '\f248'; }
+    }
+
+    &-search {
+        @extend %tt-icon;
+        &:before { content: '\f249'; }
+    }
+
+    &-secure-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f24a'; }
+    }
+
+    &-secure-circle {
+        @extend %tt-icon;
+        &:before { content: '\f24b'; }
+    }
+
+    &-secure {
+        @extend %tt-icon;
+        &:before { content: '\f24c'; }
+    }
+
+    &-servicestatus-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f24d'; }
+    }
+
+    &-servicestatus-circle {
+        @extend %tt-icon;
+        &:before { content: '\f24e'; }
+    }
+
+    &-servicestatus {
+        @extend %tt-icon;
+        &:before { content: '\f24f'; }
+    }
+
+    &-sharing-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f250'; }
+    }
+
+    &-sharing-circle {
+        @extend %tt-icon;
+        &:before { content: '\f251'; }
+    }
+
+    &-sharing {
+        @extend %tt-icon;
+        &:before { content: '\f252'; }
+    }
+
+    &-sim-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f253'; }
+    }
+
+    &-sim-circle {
+        @extend %tt-icon;
+        &:before { content: '\f254'; }
+    }
+
+    &-sim {
+        @extend %tt-icon;
+        &:before { content: '\f255'; }
+    }
+
+    &-simple-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f256'; }
+    }
+
+    &-simple-circle {
+        @extend %tt-icon;
+        &:before { content: '\f257'; }
+    }
+
+    &-simple {
+        @extend %tt-icon;
+        &:before { content: '\f258'; }
+    }
+
+    &-smart-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f259'; }
+    }
+
+    &-smart-circle {
+        @extend %tt-icon;
+        &:before { content: '\f25a'; }
+    }
+
+    &-smart {
+        @extend %tt-icon;
+        &:before { content: '\f25b'; }
+    }
+
+    &-smartsaving-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f25c'; }
+    }
+
+    &-smartsaving-circle {
+        @extend %tt-icon;
+        &:before { content: '\f25d'; }
+    }
+
+    &-smartsaving {
+        @extend %tt-icon;
+        &:before { content: '\f25e'; }
+    }
+
+    &-socialmedia-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f25f'; }
+    }
+
+    &-socialmedia-circle {
+        @extend %tt-icon;
+        &:before { content: '\f260'; }
+    }
+
+    &-socialmedia {
+        @extend %tt-icon;
+        &:before { content: '\f261'; }
+    }
+
+    &-spanner-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f262'; }
+    }
+
+    &-spanner-circle {
+        @extend %tt-icon;
+        &:before { content: '\f263'; }
+    }
+
+    &-spanner {
+        @extend %tt-icon;
+        &:before { content: '\f264'; }
+    }
+
+    &-speedcheck1-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f265'; }
+    }
+
+    &-speedcheck1-circle {
+        @extend %tt-icon;
+        &:before { content: '\f266'; }
+    }
+
+    &-speedcheck1 {
+        @extend %tt-icon;
+        &:before { content: '\f267'; }
+    }
+
+    &-speedcheck2-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f268'; }
+    }
+
+    &-speedcheck2-circle {
+        @extend %tt-icon;
+        &:before { content: '\f269'; }
+    }
+
+    &-speedcheck2 {
+        @extend %tt-icon;
+        &:before { content: '\f26a'; }
+    }
+
+    &-speedypayment-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f26b'; }
+    }
+
+    &-speedypayment-circle {
+        @extend %tt-icon;
+        &:before { content: '\f26c'; }
+    }
+
+    &-speedypayment {
+        @extend %tt-icon;
+        &:before { content: '\f26d'; }
+    }
+
+    &-sports-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f26e'; }
+    }
+
+    &-sports-circle {
+        @extend %tt-icon;
+        &:before { content: '\f26f'; }
+    }
+
+    &-sports {
+        @extend %tt-icon;
+        &:before { content: '\f270'; }
+    }
+
+    &-spyware-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f271'; }
+    }
+
+    &-spyware-circle {
+        @extend %tt-icon;
+        &:before { content: '\f272'; }
+    }
+
+    &-spyware {
+        @extend %tt-icon;
+        &:before { content: '\f273'; }
+    }
+
+    &-star-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f274'; }
+    }
+
+    &-star-circle {
+        @extend %tt-icon;
+        &:before { content: '\f275'; }
+    }
+
+    &-star {
+        @extend %tt-icon;
+        &:before { content: '\f276'; }
+    }
+
+    &-starfilled-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f277'; }
+    }
+
+    &-starfilled-circle {
+        @extend %tt-icon;
+        &:before { content: '\f278'; }
+    }
+
+    &-starfilled {
+        @extend %tt-icon;
+        &:before { content: '\f279'; }
+    }
+
+    &-starhollow-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f27a'; }
+    }
+
+    &-starhollow-circle {
+        @extend %tt-icon;
+        &:before { content: '\f27b'; }
+    }
+
+    &-starhollow {
+        @extend %tt-icon;
+        &:before { content: '\f27c'; }
+    }
+
+    &-starter-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f27d'; }
+    }
+
+    &-starter-circle {
+        @extend %tt-icon;
+        &:before { content: '\f27e'; }
+    }
+
+    &-starter {
+        @extend %tt-icon;
+        &:before { content: '\f27f'; }
+    }
+
+    &-stop-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f280'; }
+    }
+
+    &-stop-circle {
+        @extend %tt-icon;
+        &:before { content: '\f281'; }
+    }
+
+    &-stop {
+        @extend %tt-icon;
+        &:before { content: '\f282'; }
+    }
+
+    &-supersafe-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f283'; }
+    }
+
+    &-supersafe-circle {
+        @extend %tt-icon;
+        &:before { content: '\f284'; }
+    }
+
+    &-supersafe {
+        @extend %tt-icon;
+        &:before { content: '\f285'; }
+    }
+
+    &-support-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f286'; }
+    }
+
+    &-support-circle {
+        @extend %tt-icon;
+        &:before { content: '\f287'; }
+    }
+
+    &-support {
+        @extend %tt-icon;
+        &:before { content: '\f288'; }
+    }
+
+    &-tabletprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f289'; }
+    }
+
+    &-tabletprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f28a'; }
+    }
+
+    &-tabletprotection {
+        @extend %tt-icon;
+        &:before { content: '\f28b'; }
+    }
+
+    &-talktalklogo-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f28c'; }
+    }
+
+    &-talktalklogo-circle {
+        @extend %tt-icon;
+        &:before { content: '\f28d'; }
+    }
+
+    &-talktalklogo {
+        @extend %tt-icon;
+        &:before { content: '\f28e'; }
+    }
+
+    &-tasks-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f28f'; }
+    }
+
+    &-tasks-circle {
+        @extend %tt-icon;
+        &:before { content: '\f290'; }
+    }
+
+    &-tasks {
+        @extend %tt-icon;
+        &:before { content: '\f291'; }
+    }
+
+    &-thumbsdown-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f292'; }
+    }
+
+    &-thumbsdown-circle {
+        @extend %tt-icon;
+        &:before { content: '\f293'; }
+    }
+
+    &-thumbsdown {
+        @extend %tt-icon;
+        &:before { content: '\f294'; }
+    }
+
+    &-thumbsup-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f295'; }
+    }
+
+    &-thumbsup-circle {
+        @extend %tt-icon;
+        &:before { content: '\f296'; }
+    }
+
+    &-thumbsup {
+        @extend %tt-icon;
+        &:before { content: '\f297'; }
+    }
+
+    &-tick-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f298'; }
+    }
+
+    &-tick-circle {
+        @extend %tt-icon;
+        &:before { content: '\f299'; }
+    }
+
+    &-tick {
+        @extend %tt-icon;
+        &:before { content: '\f29a'; }
+    }
+
+    &-time-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f29b'; }
+    }
+
+    &-time-circle {
+        @extend %tt-icon;
+        &:before { content: '\f29c'; }
+    }
+
+    &-time {
+        @extend %tt-icon;
+        &:before { content: '\f29d'; }
+    }
+
+    &-transfer-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f29e'; }
+    }
+
+    &-transfer-circle {
+        @extend %tt-icon;
+        &:before { content: '\f29f'; }
+    }
+
+    &-transfer {
+        @extend %tt-icon;
+        &:before { content: '\f2a0'; }
+    }
+
+    &-trojanhorse-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2a1'; }
+    }
+
+    &-trojanhorse-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2a2'; }
+    }
+
+    &-trojanhorse {
+        @extend %tt-icon;
+        &:before { content: '\f2a3'; }
+    }
+
+    &-tv-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2a4'; }
+    }
+
+    &-tv-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2a5'; }
+    }
+
+    &-tv {
+        @extend %tt-icon;
+        &:before { content: '\f2a6'; }
+    }
+
+    &-ufo-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2a7'; }
+    }
+
+    &-ufo-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2a8'; }
+    }
+
+    &-ufo {
+        @extend %tt-icon;
+        &:before { content: '\f2a9'; }
+    }
+
+    &-unlimited-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2aa'; }
+    }
+
+    &-unlimited-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2ab'; }
+    }
+
+    &-unlimited {
+        @extend %tt-icon;
+        &:before { content: '\f2ac'; }
+    }
+
+    &-upload-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2ad'; }
+    }
+
+    &-upload-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2ae'; }
+    }
+
+    &-upload {
+        @extend %tt-icon;
+        &:before { content: '\f2af'; }
+    }
+
+    &-video-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2b0'; }
+    }
+
+    &-video-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2b1'; }
+    }
+
+    &-video {
+        @extend %tt-icon;
+        &:before { content: '\f2b2'; }
+    }
+
+    &-view-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2b3'; }
+    }
+
+    &-view-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2b4'; }
+    }
+
+    &-view {
+        @extend %tt-icon;
+        &:before { content: '\f2b5'; }
+    }
+
+    &-virusprotection-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2b6'; }
+    }
+
+    &-virusprotection-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2b7'; }
+    }
+
+    &-virusprotection {
+        @extend %tt-icon;
+        &:before { content: '\f2b8'; }
+    }
+
+    &-voicemail-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2b9'; }
+    }
+
+    &-voicemail-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2ba'; }
+    }
+
+    &-voicemail {
+        @extend %tt-icon;
+        &:before { content: '\f2bb'; }
+    }
+
+    &-weather-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2bc'; }
+    }
+
+    &-weather-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2bd'; }
+    }
+
+    &-weather {
+        @extend %tt-icon;
+        &:before { content: '\f2be'; }
+    }
+
+    &-word-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2bf'; }
+    }
+
+    &-word-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2c0'; }
+    }
+
+    &-word {
+        @extend %tt-icon;
+        &:before { content: '\f2c1'; }
+    }
+
+    &-world-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2c2'; }
+    }
+
+    &-world-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2c3'; }
+    }
+
+    &-world {
+        @extend %tt-icon;
+        &:before { content: '\f2c4'; }
+    }
+
+    &-worm-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2c5'; }
+    }
+
+    &-worm-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2c6'; }
+    }
+
+    &-worm {
+        @extend %tt-icon;
+        &:before { content: '\f2c7'; }
+    }
+
+    &-writeemail-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2c8'; }
+    }
+
+    &-writeemail-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2c9'; }
+    }
+
+    &-writeemail {
+        @extend %tt-icon;
+        &:before { content: '\f2ca'; }
+    }
+
+    &-x-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2cb'; }
+    }
+
+    &-x-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2cc'; }
+    }
+
+    &-x {
+        @extend %tt-icon;
+        &:before { content: '\f2cd'; }
+    }
+
+    &-xls-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f2ce'; }
+    }
+
+    &-xls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f2cf'; }
+    }
+
+    &-xls {
+        @extend %tt-icon;
+        &:before { content: '\f2d0'; }
+    }
+
+    }
