@@ -1,7 +1,7 @@
 //scss-lint:disable SelectorFormat
 
-$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.161.0/fonts/inlife/' !default;
-$hash: 'afbd1f586b4f48776a7d907fbd2624e6';
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.162.0/fonts/inlife/' !default;
+$hash: '3b1933be47f4b31f0c57ac9d9a3e8b46';
 
 @font-face {
     font-family: 'TalkTalkIcons';
@@ -2390,249 +2390,259 @@ $hash: 'afbd1f586b4f48776a7d907fbd2624e6';
         &:before { content: '\f2d8'; }
     }
 
-    &-tv-circle-fill {
+    &-tv-aip {
         @extend %tt-icon;
         &:before { content: '\f2d9'; }
     }
 
-    &-tv-circle {
+    &-tv-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2da'; }
     }
 
-    &-tv-new {
+    &-tv-circle {
         @extend %tt-icon;
         &:before { content: '\f2db'; }
     }
 
-    &-tv {
+    &-tv-new {
         @extend %tt-icon;
         &:before { content: '\f2dc'; }
     }
 
-    &-ufo-circle-fill {
+    &-tv-plus {
         @extend %tt-icon;
         &:before { content: '\f2dd'; }
     }
 
-    &-ufo-circle {
+    &-tv {
         @extend %tt-icon;
         &:before { content: '\f2de'; }
     }
 
-    &-ufo {
+    &-ufo-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2df'; }
     }
 
-    &-uk-coverage-circle-fill {
+    &-ufo-circle {
         @extend %tt-icon;
         &:before { content: '\f2e0'; }
     }
 
-    &-uk-coverage-circle {
+    &-ufo {
         @extend %tt-icon;
         &:before { content: '\f2e1'; }
     }
 
-    &-uk-coverage {
+    &-uk-coverage-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2e2'; }
     }
 
-    &-unlimited-circle-fill {
+    &-uk-coverage-circle {
         @extend %tt-icon;
         &:before { content: '\f2e3'; }
     }
 
-    &-unlimited-circle {
+    &-uk-coverage {
         @extend %tt-icon;
         &:before { content: '\f2e4'; }
     }
 
-    &-unlimited {
+    &-unlimited-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2e5'; }
     }
 
-    &-upload-circle-fill {
+    &-unlimited-circle {
         @extend %tt-icon;
         &:before { content: '\f2e6'; }
     }
 
-    &-upload-circle {
+    &-unlimited {
         @extend %tt-icon;
         &:before { content: '\f2e7'; }
     }
 
-    &-upload {
+    &-upload-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2e8'; }
     }
 
-    &-video-circle-fill {
+    &-upload-circle {
         @extend %tt-icon;
         &:before { content: '\f2e9'; }
     }
 
-    &-video-circle {
+    &-upload {
         @extend %tt-icon;
         &:before { content: '\f2ea'; }
     }
 
-    &-video {
+    &-video-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2eb'; }
     }
 
-    &-view-circle-fill {
+    &-video-circle {
         @extend %tt-icon;
         &:before { content: '\f2ec'; }
     }
 
-    &-view-circle {
+    &-video {
         @extend %tt-icon;
         &:before { content: '\f2ed'; }
     }
 
-    &-view {
+    &-view-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2ee'; }
     }
 
-    &-virusprotection-circle-fill {
+    &-view-circle {
         @extend %tt-icon;
         &:before { content: '\f2ef'; }
     }
 
-    &-virusprotection-circle {
+    &-view {
         @extend %tt-icon;
         &:before { content: '\f2f0'; }
     }
 
-    &-virusprotection {
+    &-virusprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2f1'; }
     }
 
-    &-voicemail-circle-fill {
+    &-virusprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f2f2'; }
     }
 
-    &-voicemail-circle {
+    &-virusprotection {
         @extend %tt-icon;
         &:before { content: '\f2f3'; }
     }
 
-    &-voicemail {
+    &-voicemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2f4'; }
     }
 
-    &-weather-circle-fill {
+    &-voicemail-circle {
         @extend %tt-icon;
         &:before { content: '\f2f5'; }
     }
 
-    &-weather-circle {
+    &-voicemail {
         @extend %tt-icon;
         &:before { content: '\f2f6'; }
     }
 
-    &-weather {
+    &-weather-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2f7'; }
     }
 
-    &-word-circle-fill {
+    &-weather-circle {
         @extend %tt-icon;
         &:before { content: '\f2f8'; }
     }
 
-    &-word-circle {
+    &-weather {
         @extend %tt-icon;
         &:before { content: '\f2f9'; }
     }
 
-    &-word {
+    &-word-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2fa'; }
     }
 
-    &-world-circle-fill {
+    &-word-circle {
         @extend %tt-icon;
         &:before { content: '\f2fb'; }
     }
 
-    &-world-circle {
+    &-word {
         @extend %tt-icon;
         &:before { content: '\f2fc'; }
     }
 
-    &-world {
+    &-world-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2fd'; }
     }
 
-    &-worm-circle-fill {
+    &-world-circle {
         @extend %tt-icon;
         &:before { content: '\f2fe'; }
     }
 
-    &-worm-circle {
+    &-world {
         @extend %tt-icon;
         &:before { content: '\f2ff'; }
     }
 
-    &-worm {
+    &-worm-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f300'; }
     }
 
-    &-writeemail-circle-fill {
+    &-worm-circle {
         @extend %tt-icon;
         &:before { content: '\f301'; }
     }
 
-    &-writeemail-circle {
+    &-worm {
         @extend %tt-icon;
         &:before { content: '\f302'; }
     }
 
-    &-writeemail {
+    &-writeemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f303'; }
     }
 
-    &-x-circle-fill {
+    &-writeemail-circle {
         @extend %tt-icon;
         &:before { content: '\f304'; }
     }
 
-    &-x-circle {
+    &-writeemail {
         @extend %tt-icon;
         &:before { content: '\f305'; }
     }
 
-    &-x {
+    &-x-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f306'; }
     }
 
-    &-xls-circle-fill {
+    &-x-circle {
         @extend %tt-icon;
         &:before { content: '\f307'; }
     }
 
-    &-xls-circle {
+    &-x {
         @extend %tt-icon;
         &:before { content: '\f308'; }
     }
 
-    &-xls {
+    &-xls-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f309'; }
+    }
+
+    &-xls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f30a'; }
+    }
+
+    &-xls {
+        @extend %tt-icon;
+        &:before { content: '\f30b'; }
     }
 
     }
