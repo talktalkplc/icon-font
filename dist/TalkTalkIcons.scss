@@ -1,7 +1,7 @@
 //scss-lint:disable SelectorFormat
 
-$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.210.0/fonts/inlife/' !default;
-$hash: '2f1d1f92c1b49d224722720b5ba9aa85';
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.211.0/fonts/inlife/' !default;
+$hash: '38d863750f3503b76ccf30951dc08f74';
 
 @font-face {
     font-family: 'TalkTalkIcons';
@@ -3125,119 +3125,104 @@ $hash: '2f1d1f92c1b49d224722720b5ba9aa85';
         &:before { content: '\f36b'; }
     }
 
-    &-weather-circle-fill2 {
+    &-weather-circle {
         @extend %tt-icon;
         &:before { content: '\f36c'; }
     }
 
-    &-weather-circle {
+    &-weather {
         @extend %tt-icon;
         &:before { content: '\f36d'; }
     }
 
-    &-weather-circle2 {
+    &-word-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f36e'; }
     }
 
-    &-weather {
+    &-word-circle {
         @extend %tt-icon;
         &:before { content: '\f36f'; }
     }
 
-    &-weather2 {
+    &-word {
         @extend %tt-icon;
         &:before { content: '\f370'; }
     }
 
-    &-word-circle-fill {
+    &-world-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f371'; }
     }
 
-    &-word-circle {
+    &-world-circle {
         @extend %tt-icon;
         &:before { content: '\f372'; }
     }
 
-    &-word {
+    &-world {
         @extend %tt-icon;
         &:before { content: '\f373'; }
     }
 
-    &-world-circle-fill {
+    &-worm-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f374'; }
     }
 
-    &-world-circle {
+    &-worm-circle {
         @extend %tt-icon;
         &:before { content: '\f375'; }
     }
 
-    &-world {
+    &-worm {
         @extend %tt-icon;
         &:before { content: '\f376'; }
     }
 
-    &-worm-circle-fill {
+    &-writeemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f377'; }
     }
 
-    &-worm-circle {
+    &-writeemail-circle {
         @extend %tt-icon;
         &:before { content: '\f378'; }
     }
 
-    &-worm {
+    &-writeemail {
         @extend %tt-icon;
         &:before { content: '\f379'; }
     }
 
-    &-writeemail-circle-fill {
+    &-x-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f37a'; }
     }
 
-    &-writeemail-circle {
+    &-x-circle {
         @extend %tt-icon;
         &:before { content: '\f37b'; }
     }
 
-    &-writeemail {
+    &-x {
         @extend %tt-icon;
         &:before { content: '\f37c'; }
     }
 
-    &-x-circle-fill {
+    &-xls-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f37d'; }
     }
 
-    &-x-circle {
+    &-xls-circle {
         @extend %tt-icon;
         &:before { content: '\f37e'; }
     }
 
-    &-x {
-        @extend %tt-icon;
-        &:before { content: '\f37f'; }
-    }
-
-    &-xls-circle-fill {
-        @extend %tt-icon;
-        &:before { content: '\f380'; }
-    }
-
-    &-xls-circle {
-        @extend %tt-icon;
-        &:before { content: '\f381'; }
-    }
-
     &-xls {
         @extend %tt-icon;
-        &:before { content: '\f382'; }
+        &:before { content: '\f37f'; }
     }
 
     }
