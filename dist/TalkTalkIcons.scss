@@ -1,7 +1,7 @@
 //scss-lint:disable SelectorFormat
 
-$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.281.0/fonts/inlife/' !default;
-$hash: 'cbfdb5d95ac4bade98bb7564e5ea2f35';
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.282.0/fonts/inlife/' !default;
+$hash: '0c36ecb435f51e591d92061bf65935cc';
 
 @font-face {
     font-family: 'TalkTalkIcons';
@@ -1505,2259 +1505,2269 @@ $hash: 'cbfdb5d95ac4bade98bb7564e5ea2f35';
         &:before { content: '\f227'; }
     }
 
-    &-kids-remote {
+    &-kids-remote-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f228'; }
     }
 
-    &-kids {
+    &-kids-remote-circle {
         @extend %tt-icon;
         &:before { content: '\f229'; }
     }
 
-    &-laptop-circle-fill {
+    &-kids-remote {
         @extend %tt-icon;
         &:before { content: '\f22a'; }
     }
 
-    &-laptop-circle {
+    &-kids {
         @extend %tt-icon;
         &:before { content: '\f22b'; }
     }
 
-    &-laptop {
+    &-laptop-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f22c'; }
     }
 
-    &-link-circle-fill {
+    &-laptop-circle {
         @extend %tt-icon;
         &:before { content: '\f22d'; }
     }
 
-    &-link-circle {
+    &-laptop {
         @extend %tt-icon;
         &:before { content: '\f22e'; }
     }
 
-    &-link {
+    &-link-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f22f'; }
     }
 
-    &-linkedin-circle-fill {
+    &-link-circle {
         @extend %tt-icon;
         &:before { content: '\f230'; }
     }
 
-    &-linkedin {
+    &-link {
         @extend %tt-icon;
         &:before { content: '\f231'; }
     }
 
-    &-list-circle-fill {
+    &-linkedin-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f232'; }
     }
 
-    &-list-circle {
+    &-linkedin {
         @extend %tt-icon;
         &:before { content: '\f233'; }
     }
 
-    &-list {
+    &-list-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f234'; }
     }
 
-    &-lite-tv-circle-fill {
+    &-list-circle {
         @extend %tt-icon;
         &:before { content: '\f235'; }
     }
 
-    &-lite-tv-circle {
+    &-list {
         @extend %tt-icon;
         &:before { content: '\f236'; }
     }
 
-    &-lite-tv {
+    &-lite-tv-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f237'; }
     }
 
-    &-livechat-circle-fill {
+    &-lite-tv-circle {
         @extend %tt-icon;
         &:before { content: '\f238'; }
     }
 
-    &-livechat-circle {
+    &-lite-tv {
         @extend %tt-icon;
         &:before { content: '\f239'; }
     }
 
-    &-livechat {
+    &-livechat-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f23a'; }
     }
 
-    &-locate-my-phone-circle-fill {
+    &-livechat-circle {
         @extend %tt-icon;
         &:before { content: '\f23b'; }
     }
 
-    &-locate-my-phone-circle {
+    &-livechat {
         @extend %tt-icon;
         &:before { content: '\f23c'; }
     }
 
-    &-locate-my-phone {
+    &-locate-my-phone-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f23d'; }
     }
 
-    &-login {
+    &-locate-my-phone-circle {
         @extend %tt-icon;
         &:before { content: '\f23e'; }
     }
 
-    &-logo-main {
+    &-locate-my-phone {
         @extend %tt-icon;
         &:before { content: '\f23f'; }
     }
 
-    &-logo {
+    &-login {
         @extend %tt-icon;
         &:before { content: '\f240'; }
     }
 
-    &-malware-circle-fill {
+    &-logo-main {
         @extend %tt-icon;
         &:before { content: '\f241'; }
     }
 
-    &-malware-circle {
+    &-logo {
         @extend %tt-icon;
         &:before { content: '\f242'; }
     }
 
-    &-malware {
+    &-malware-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f243'; }
     }
 
-    &-menu-circle-fill {
+    &-malware-circle {
         @extend %tt-icon;
         &:before { content: '\f244'; }
     }
 
-    &-menu-circle {
+    &-malware {
         @extend %tt-icon;
         &:before { content: '\f245'; }
     }
 
-    &-menu {
+    &-menu-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f246'; }
     }
 
-    &-message-us-circle-fill {
+    &-menu-circle {
         @extend %tt-icon;
         &:before { content: '\f247'; }
     }
 
-    &-message-us-circle {
+    &-menu {
         @extend %tt-icon;
         &:before { content: '\f248'; }
     }
 
-    &-message-us {
+    &-message-us-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f249'; }
     }
 
-    &-microsim-circle-fill {
+    &-message-us-circle {
         @extend %tt-icon;
         &:before { content: '\f24a'; }
     }
 
-    &-microsim-circle {
+    &-message-us {
         @extend %tt-icon;
         &:before { content: '\f24b'; }
     }
 
-    &-microsim {
+    &-microsim-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f24c'; }
     }
 
-    &-minimise-tv-screen-circle-fill {
+    &-microsim-circle {
         @extend %tt-icon;
         &:before { content: '\f24d'; }
     }
 
-    &-minimise-tv-screen-circle {
+    &-microsim {
         @extend %tt-icon;
         &:before { content: '\f24e'; }
     }
 
-    &-minimise-tv-screen {
+    &-minimise-tv-screen-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f24f'; }
     }
 
-    &-minus-circle-fill {
+    &-minimise-tv-screen-circle {
         @extend %tt-icon;
         &:before { content: '\f250'; }
     }
 
-    &-minus-circle {
+    &-minimise-tv-screen {
         @extend %tt-icon;
         &:before { content: '\f251'; }
     }
 
-    &-minus {
+    &-minus-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f252'; }
     }
 
-    &-mobile-billing-circle-fill {
+    &-minus-circle {
         @extend %tt-icon;
         &:before { content: '\f253'; }
     }
 
-    &-mobile-billing-circle {
+    &-minus {
         @extend %tt-icon;
         &:before { content: '\f254'; }
     }
 
-    &-mobile-billing {
+    &-mobile-billing-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f255'; }
     }
 
-    &-mobile-circle-fill {
+    &-mobile-billing-circle {
         @extend %tt-icon;
         &:before { content: '\f256'; }
     }
 
-    &-mobile-circle {
+    &-mobile-billing {
         @extend %tt-icon;
         &:before { content: '\f257'; }
     }
 
-    &-mobile-new {
+    &-mobile-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f258'; }
     }
 
-    &-mobile-upgrades-circle-fill {
+    &-mobile-circle {
         @extend %tt-icon;
         &:before { content: '\f259'; }
     }
 
-    &-mobile-upgrades-circle {
+    &-mobile-new {
         @extend %tt-icon;
         &:before { content: '\f25a'; }
     }
 
-    &-mobile-upgrades {
+    &-mobile-upgrades-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f25b'; }
     }
 
-    &-mobile {
+    &-mobile-upgrades-circle {
         @extend %tt-icon;
         &:before { content: '\f25c'; }
     }
 
-    &-mobileboost-circle-fill {
+    &-mobile-upgrades {
         @extend %tt-icon;
         &:before { content: '\f25d'; }
     }
 
-    &-mobileboost-circle {
+    &-mobile {
         @extend %tt-icon;
         &:before { content: '\f25e'; }
     }
 
-    &-mobileboost {
+    &-mobileboost-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f25f'; }
     }
 
-    &-mobileplan-l-circle-fill {
+    &-mobileboost-circle {
         @extend %tt-icon;
         &:before { content: '\f260'; }
     }
 
-    &-mobileplan-m-circle-fill {
+    &-mobileboost {
         @extend %tt-icon;
         &:before { content: '\f261'; }
     }
 
-    &-mobileplan-s-circle-fill {
+    &-mobileplan-l-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f262'; }
     }
 
-    &-mobileplan-xl-circle-fill {
+    &-mobileplan-m-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f263'; }
     }
 
-    &-mobileprotection-circle-fill {
+    &-mobileplan-s-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f264'; }
     }
 
-    &-mobileprotection-circle {
+    &-mobileplan-xl-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f265'; }
     }
 
-    &-mobileprotection {
+    &-mobileprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f266'; }
     }
 
-    &-mobilesafe-circle-fill {
+    &-mobileprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f267'; }
     }
 
-    &-mobilesafe-circle {
+    &-mobileprotection {
         @extend %tt-icon;
         &:before { content: '\f268'; }
     }
 
-    &-mobilesafe {
+    &-mobilesafe-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f269'; }
     }
 
-    &-moderator-needed-circle-fill {
+    &-mobilesafe-circle {
         @extend %tt-icon;
         &:before { content: '\f26a'; }
     }
 
-    &-moderator-needed-circle {
+    &-mobilesafe {
         @extend %tt-icon;
         &:before { content: '\f26b'; }
     }
 
-    &-moderator-needed {
+    &-moderator-needed-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f26c'; }
     }
 
-    &-more-circle-fill {
+    &-moderator-needed-circle {
         @extend %tt-icon;
         &:before { content: '\f26d'; }
     }
 
-    &-more-circle {
+    &-moderator-needed {
         @extend %tt-icon;
         &:before { content: '\f26e'; }
     }
 
-    &-more {
+    &-more-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f26f'; }
     }
 
-    &-moved-topic-circle-fill {
+    &-more-circle {
         @extend %tt-icon;
         &:before { content: '\f270'; }
     }
 
-    &-moved-topic-circle {
+    &-more {
         @extend %tt-icon;
         &:before { content: '\f271'; }
     }
 
-    &-moved-topic {
+    &-moved-topic-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f272'; }
     }
 
-    &-movies-circle-fill {
+    &-moved-topic-circle {
         @extend %tt-icon;
         &:before { content: '\f273'; }
     }
 
-    &-movies-circle {
+    &-moved-topic {
         @extend %tt-icon;
         &:before { content: '\f274'; }
     }
 
-    &-movies {
+    &-movies-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f275'; }
     }
 
-    &-multi-sim-circle-fill {
+    &-movies-circle {
         @extend %tt-icon;
         &:before { content: '\f276'; }
     }
 
-    &-multi-sim-circle {
+    &-movies {
         @extend %tt-icon;
         &:before { content: '\f277'; }
     }
 
-    &-multi-sim {
+    &-multi-sim-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f278'; }
     }
 
-    &-multicolour-cloud-background {
+    &-multi-sim-circle {
         @extend %tt-icon;
         &:before { content: '\f279'; }
     }
 
-    &-multicolour-mobile-background {
+    &-multi-sim {
         @extend %tt-icon;
         &:before { content: '\f27a'; }
     }
 
-    &-multicolour-payment-background {
+    &-multicolour-cloud-background {
         @extend %tt-icon;
         &:before { content: '\f27b'; }
     }
 
-    &-multicolour-rocket-background {
+    &-multicolour-mobile-background {
         @extend %tt-icon;
         &:before { content: '\f27c'; }
     }
 
-    &-multideviceprotection-circle-fill {
+    &-multicolour-payment-background {
         @extend %tt-icon;
         &:before { content: '\f27d'; }
     }
 
-    &-multideviceprotection-circle {
+    &-multicolour-rocket-background {
         @extend %tt-icon;
         &:before { content: '\f27e'; }
     }
 
-    &-multideviceprotection {
+    &-multideviceprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f27f'; }
     }
 
-    &-music-circle-fill {
+    &-multideviceprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f280'; }
     }
 
-    &-music-circle {
+    &-multideviceprotection {
         @extend %tt-icon;
         &:before { content: '\f281'; }
     }
 
-    &-music {
+    &-music-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f282'; }
     }
 
-    &-mute-circle-fill {
+    &-music-circle {
         @extend %tt-icon;
         &:before { content: '\f283'; }
     }
 
-    &-mute-circle {
+    &-music {
         @extend %tt-icon;
         &:before { content: '\f284'; }
     }
 
-    &-mute {
+    &-mute-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f285'; }
     }
 
-    &-myaccount-circle-fill {
+    &-mute-circle {
         @extend %tt-icon;
         &:before { content: '\f286'; }
     }
 
-    &-myaccount-circle {
+    &-mute {
         @extend %tt-icon;
         &:before { content: '\f287'; }
     }
 
-    &-myaccount {
+    &-myaccount-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f288'; }
     }
 
-    &-mystuff-tv {
+    &-myaccount-circle {
         @extend %tt-icon;
         &:before { content: '\f289'; }
     }
 
-    &-mytalktalkapp {
+    &-myaccount {
         @extend %tt-icon;
         &:before { content: '\f28a'; }
     }
 
-    &-n-exclamation {
+    &-mystuff-tv {
         @extend %tt-icon;
         &:before { content: '\f28b'; }
     }
 
-    &-nameyourplan-circle-fill {
+    &-mytalktalkapp {
         @extend %tt-icon;
         &:before { content: '\f28c'; }
     }
 
-    &-nameyourplan-circle {
+    &-n-exclamation {
         @extend %tt-icon;
         &:before { content: '\f28d'; }
     }
 
-    &-nameyourplan {
+    &-nameyourplan-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f28e'; }
     }
 
-    &-nanosim-circle-fill {
+    &-nameyourplan-circle {
         @extend %tt-icon;
         &:before { content: '\f28f'; }
     }
 
-    &-nanosim-circle {
+    &-nameyourplan {
         @extend %tt-icon;
         &:before { content: '\f290'; }
     }
 
-    &-nanosim {
+    &-nanosim-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f291'; }
     }
 
-    &-nav-help {
+    &-nanosim-circle {
         @extend %tt-icon;
         &:before { content: '\f292'; }
     }
 
-    &-nav-mail {
+    &-nanosim {
         @extend %tt-icon;
         &:before { content: '\f293'; }
     }
 
-    &-nav-my-account {
+    &-nav-help {
         @extend %tt-icon;
         &:before { content: '\f294'; }
     }
 
-    &-nav-news {
+    &-nav-mail {
         @extend %tt-icon;
         &:before { content: '\f295'; }
     }
 
-    &-nav-product {
+    &-nav-my-account {
         @extend %tt-icon;
         &:before { content: '\f296'; }
     }
 
-    &-newwindow {
+    &-nav-news {
         @extend %tt-icon;
         &:before { content: '\f297'; }
     }
 
-    &-newwindow_circle {
+    &-nav-product {
         @extend %tt-icon;
         &:before { content: '\f298'; }
     }
 
-    &-newwindow_circle_fill {
+    &-newwindow {
         @extend %tt-icon;
         &:before { content: '\f299'; }
     }
 
-    &-offers-circle-fill {
+    &-newwindow_circle {
         @extend %tt-icon;
         &:before { content: '\f29a'; }
     }
 
-    &-offers-circle {
+    &-newwindow_circle_fill {
         @extend %tt-icon;
         &:before { content: '\f29b'; }
     }
 
-    &-offers {
+    &-offers-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f29c'; }
     }
 
-    &-on-the-go-train {
+    &-offers-circle {
         @extend %tt-icon;
         &:before { content: '\f29d'; }
     }
 
-    &-own-tv {
+    &-offers {
         @extend %tt-icon;
         &:before { content: '\f29e'; }
     }
 
-    &-package-circle-fill {
+    &-on-the-go-train {
         @extend %tt-icon;
         &:before { content: '\f29f'; }
     }
 
-    &-package-circle {
+    &-own-tv {
         @extend %tt-icon;
         &:before { content: '\f2a0'; }
     }
 
-    &-package {
+    &-package-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2a1'; }
     }
 
-    &-parentalcontrol-circle-fill {
+    &-package-circle {
         @extend %tt-icon;
         &:before { content: '\f2a2'; }
     }
 
-    &-parentalcontrol-circle {
+    &-package {
         @extend %tt-icon;
         &:before { content: '\f2a3'; }
     }
 
-    &-parentalcontrol {
+    &-parentalcontrol-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2a4'; }
     }
 
-    &-pause-circle-fill {
+    &-parentalcontrol-circle {
         @extend %tt-icon;
         &:before { content: '\f2a5'; }
     }
 
-    &-pause-circle {
+    &-parentalcontrol {
         @extend %tt-icon;
         &:before { content: '\f2a6'; }
     }
 
-    &-pause-tv {
+    &-pause-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2a7'; }
     }
 
-    &-pause {
+    &-pause-circle {
         @extend %tt-icon;
         &:before { content: '\f2a8'; }
     }
 
-    &-paymentcard {
+    &-pause-tv {
         @extend %tt-icon;
         &:before { content: '\f2a9'; }
     }
 
-    &-pcprotection-circle-fill {
+    &-pause {
         @extend %tt-icon;
         &:before { content: '\f2aa'; }
     }
 
-    &-pcprotection-circle {
+    &-paymentcard {
         @extend %tt-icon;
         &:before { content: '\f2ab'; }
     }
 
-    &-pcprotection {
+    &-pcprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2ac'; }
     }
 
-    &-pdf-circle-fill {
+    &-pcprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f2ad'; }
     }
 
-    &-pdf-circle {
+    &-pcprotection {
         @extend %tt-icon;
         &:before { content: '\f2ae'; }
     }
 
-    &-pdf {
+    &-pdf-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2af'; }
     }
 
-    &-persistent-basket-circle {
+    &-pdf-circle {
         @extend %tt-icon;
         &:before { content: '\f2b0'; }
     }
 
-    &-persistent-basket-tick {
+    &-pdf {
         @extend %tt-icon;
         &:before { content: '\f2b1'; }
     }
 
-    &-persistent-basket {
+    &-persistent-basket-circle {
         @extend %tt-icon;
         &:before { content: '\f2b2'; }
     }
 
-    &-phishing-circle-fill {
+    &-persistent-basket-tick {
         @extend %tt-icon;
         &:before { content: '\f2b3'; }
     }
 
-    &-phishing-circle {
+    &-persistent-basket {
         @extend %tt-icon;
         &:before { content: '\f2b4'; }
     }
 
-    &-phishing {
+    &-phishing-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2b5'; }
     }
 
-    &-phone-circle-fill {
+    &-phishing-circle {
         @extend %tt-icon;
         &:before { content: '\f2b6'; }
     }
 
-    &-phone-circle {
+    &-phishing {
         @extend %tt-icon;
         &:before { content: '\f2b7'; }
     }
 
-    &-phone {
+    &-phone-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2b8'; }
     }
 
-    &-photo-circle-fill {
+    &-phone-circle {
         @extend %tt-icon;
         &:before { content: '\f2b9'; }
     }
 
-    &-photo-circle {
+    &-phone {
         @extend %tt-icon;
         &:before { content: '\f2ba'; }
     }
 
-    &-photo {
+    &-photo-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2bb'; }
     }
 
-    &-picon-circle-fill {
+    &-photo-circle {
         @extend %tt-icon;
         &:before { content: '\f2bc'; }
     }
 
-    &-picon-circle {
+    &-photo {
         @extend %tt-icon;
         &:before { content: '\f2bd'; }
     }
 
-    &-picon {
+    &-picon-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2be'; }
     }
 
-    &-pinned-topic-circle-fill {
+    &-picon-circle {
         @extend %tt-icon;
         &:before { content: '\f2bf'; }
     }
 
-    &-pinned-topic-circle {
+    &-picon {
         @extend %tt-icon;
         &:before { content: '\f2c0'; }
     }
 
-    &-pinned-topic {
+    &-pinned-topic-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2c1'; }
     }
 
-    &-play-circle-fill {
+    &-pinned-topic-circle {
         @extend %tt-icon;
         &:before { content: '\f2c2'; }
     }
 
-    &-play-circle {
+    &-pinned-topic {
         @extend %tt-icon;
         &:before { content: '\f2c3'; }
     }
 
-    &-play {
+    &-play-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2c4'; }
     }
 
-    &-plus-circle-fill {
+    &-play-circle {
         @extend %tt-icon;
         &:before { content: '\f2c5'; }
     }
 
-    &-plus-circle {
+    &-play {
         @extend %tt-icon;
         &:before { content: '\f2c6'; }
     }
 
-    &-plus {
+    &-plus-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2c7'; }
     }
 
-    &-ppt-circle-fill {
+    &-plus-circle {
         @extend %tt-icon;
         &:before { content: '\f2c8'; }
     }
 
-    &-ppt-circle {
+    &-plus {
         @extend %tt-icon;
         &:before { content: '\f2c9'; }
     }
 
-    &-ppt {
+    &-ppt-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2ca'; }
     }
 
-    &-print-circle-fill {
+    &-ppt-circle {
         @extend %tt-icon;
         &:before { content: '\f2cb'; }
     }
 
-    &-print-circle {
+    &-ppt {
         @extend %tt-icon;
         &:before { content: '\f2cc'; }
     }
 
-    &-print {
+    &-print-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2cd'; }
     }
 
-    &-protectioninhome-circle-fill {
+    &-print-circle {
         @extend %tt-icon;
         &:before { content: '\f2ce'; }
     }
 
-    &-protectioninhome-circle {
+    &-print {
         @extend %tt-icon;
         &:before { content: '\f2cf'; }
     }
 
-    &-protectioninhome {
+    &-protectioninhome-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2d0'; }
     }
 
-    &-protectyourmoney-circle-fill {
+    &-protectioninhome-circle {
         @extend %tt-icon;
         &:before { content: '\f2d1'; }
     }
 
-    &-protectyourmoney-circle {
+    &-protectioninhome {
         @extend %tt-icon;
         &:before { content: '\f2d2'; }
     }
 
-    &-protectyourmoney {
+    &-protectyourmoney-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2d3'; }
     }
 
-    &-ransomware-circle-fill {
+    &-protectyourmoney-circle {
         @extend %tt-icon;
         &:before { content: '\f2d4'; }
     }
 
-    &-ransomware-circle {
+    &-protectyourmoney {
         @extend %tt-icon;
         &:before { content: '\f2d5'; }
     }
 
-    &-ransomware {
+    &-ransomware-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2d6'; }
     }
 
-    &-record-circle-fill {
+    &-ransomware-circle {
         @extend %tt-icon;
         &:before { content: '\f2d7'; }
     }
 
-    &-record-circle {
+    &-ransomware {
         @extend %tt-icon;
         &:before { content: '\f2d8'; }
     }
 
-    &-record-tv-grey-circle {
+    &-record-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2d9'; }
     }
 
-    &-record-tv-r {
+    &-record-circle {
         @extend %tt-icon;
         &:before { content: '\f2da'; }
     }
 
-    &-record-tv-red-circle {
+    &-record-tv-grey-circle {
         @extend %tt-icon;
         &:before { content: '\f2db'; }
     }
 
-    &-record {
+    &-record-tv-r {
         @extend %tt-icon;
         &:before { content: '\f2dc'; }
     }
 
-    &-refresh-circle-fill {
+    &-record-tv-red-circle {
         @extend %tt-icon;
         &:before { content: '\f2dd'; }
     }
 
-    &-refresh-circle {
+    &-record {
         @extend %tt-icon;
         &:before { content: '\f2de'; }
     }
 
-    &-refresh {
+    &-refresh-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2df'; }
     }
 
-    &-reliable-circle-fill {
+    &-refresh-circle {
         @extend %tt-icon;
         &:before { content: '\f2e0'; }
     }
 
-    &-reliable-circle {
+    &-refresh {
         @extend %tt-icon;
         &:before { content: '\f2e1'; }
     }
 
-    &-reliable {
+    &-reliable-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2e2'; }
     }
 
-    &-rent {
+    &-reliable-circle {
         @extend %tt-icon;
         &:before { content: '\f2e3'; }
     }
 
-    &-report-abuse-circle-fill {
+    &-reliable {
         @extend %tt-icon;
         &:before { content: '\f2e4'; }
     }
 
-    &-report-abuse-circle {
+    &-rent {
         @extend %tt-icon;
         &:before { content: '\f2e5'; }
     }
 
-    &-report-abuse {
+    &-report-abuse-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2e6'; }
     }
 
-    &-rewind-circle-fill {
+    &-report-abuse-circle {
         @extend %tt-icon;
         &:before { content: '\f2e7'; }
     }
 
-    &-rewind-circle {
+    &-report-abuse {
         @extend %tt-icon;
         &:before { content: '\f2e8'; }
     }
 
-    &-rewind-tv {
+    &-rewind-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2e9'; }
     }
 
-    &-rewind {
+    &-rewind-circle {
         @extend %tt-icon;
         &:before { content: '\f2ea'; }
     }
 
-    &-rocket-icon {
+    &-rewind-tv {
         @extend %tt-icon;
         &:before { content: '\f2eb'; }
     }
 
-    &-router {
+    &-rewind {
         @extend %tt-icon;
         &:before { content: '\f2ec'; }
     }
 
-    &-routerupdate-circle-fill {
+    &-rocket-icon {
         @extend %tt-icon;
         &:before { content: '\f2ed'; }
     }
 
-    &-routerupdate-circle {
+    &-router {
         @extend %tt-icon;
         &:before { content: '\f2ee'; }
     }
 
-    &-routerupdate {
+    &-routerupdate-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2ef'; }
     }
 
-    &-scissors {
+    &-routerupdate-circle {
         @extend %tt-icon;
         &:before { content: '\f2f0'; }
     }
 
-    &-search-circle-fill {
+    &-routerupdate {
         @extend %tt-icon;
         &:before { content: '\f2f1'; }
     }
 
-    &-search-circle {
+    &-scissors {
         @extend %tt-icon;
         &:before { content: '\f2f2'; }
     }
 
-    &-search {
+    &-search-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2f3'; }
     }
 
-    &-secure-circle-fill {
+    &-search-circle {
         @extend %tt-icon;
         &:before { content: '\f2f4'; }
     }
 
-    &-secure-circle {
+    &-search {
         @extend %tt-icon;
         &:before { content: '\f2f5'; }
     }
 
-    &-secure {
+    &-secure-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2f6'; }
     }
 
-    &-servicestatus-circle-fill {
+    &-secure-circle {
         @extend %tt-icon;
         &:before { content: '\f2f7'; }
     }
 
-    &-servicestatus-circle {
+    &-secure {
         @extend %tt-icon;
         &:before { content: '\f2f8'; }
     }
 
-    &-servicestatus {
+    &-servicestatus-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2f9'; }
     }
 
-    &-sharing-circle-fill {
+    &-servicestatus-circle {
         @extend %tt-icon;
         &:before { content: '\f2fa'; }
     }
 
-    &-sharing-circle {
+    &-servicestatus {
         @extend %tt-icon;
         &:before { content: '\f2fb'; }
     }
 
-    &-sharing {
+    &-sharing-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f2fc'; }
     }
 
-    &-si-billbusters-outline {
+    &-sharing-circle {
         @extend %tt-icon;
         &:before { content: '\f2fd'; }
     }
 
-    &-si_circle {
+    &-sharing {
         @extend %tt-icon;
         &:before { content: '\f2fe'; }
     }
 
-    &-si_dial-10 {
+    &-si-billbusters-outline {
         @extend %tt-icon;
         &:before { content: '\f2ff'; }
     }
 
-    &-si_dial-100 {
+    &-si_circle {
         @extend %tt-icon;
         &:before { content: '\f300'; }
     }
 
-    &-si_dial-20 {
+    &-si_dial-10 {
         @extend %tt-icon;
         &:before { content: '\f301'; }
     }
 
-    &-si_dial-30 {
+    &-si_dial-100 {
         @extend %tt-icon;
         &:before { content: '\f302'; }
     }
 
-    &-si_dial-40 {
+    &-si_dial-20 {
         @extend %tt-icon;
         &:before { content: '\f303'; }
     }
 
-    &-si_dial-50 {
+    &-si_dial-30 {
         @extend %tt-icon;
         &:before { content: '\f304'; }
     }
 
-    &-si_dial-60 {
+    &-si_dial-40 {
         @extend %tt-icon;
         &:before { content: '\f305'; }
     }
 
-    &-si_dial-70 {
+    &-si_dial-50 {
         @extend %tt-icon;
         &:before { content: '\f306'; }
     }
 
-    &-si_dial-80 {
+    &-si_dial-60 {
         @extend %tt-icon;
         &:before { content: '\f307'; }
     }
 
-    &-si_dial-90 {
+    &-si_dial-70 {
         @extend %tt-icon;
         &:before { content: '\f308'; }
     }
 
-    &-si_dial {
+    &-si_dial-80 {
         @extend %tt-icon;
         &:before { content: '\f309'; }
     }
 
-    &-si_ring {
+    &-si_dial-90 {
         @extend %tt-icon;
         &:before { content: '\f30a'; }
     }
 
-    &-si_rocket_0 {
+    &-si_dial {
         @extend %tt-icon;
         &:before { content: '\f30b'; }
     }
 
-    &-si_rocket_1 {
+    &-si_ring {
         @extend %tt-icon;
         &:before { content: '\f30c'; }
     }
 
-    &-sim-circle-fill {
+    &-si_rocket_0 {
         @extend %tt-icon;
         &:before { content: '\f30d'; }
     }
 
-    &-sim-circle {
+    &-si_rocket_1 {
         @extend %tt-icon;
         &:before { content: '\f30e'; }
     }
 
-    &-sim-micro {
+    &-sim-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f30f'; }
     }
 
-    &-sim-nano {
+    &-sim-circle {
         @extend %tt-icon;
         &:before { content: '\f310'; }
     }
 
-    &-sim-standard {
+    &-sim-micro {
         @extend %tt-icon;
         &:before { content: '\f311'; }
     }
 
-    &-sim {
+    &-sim-nano {
         @extend %tt-icon;
         &:before { content: '\f312'; }
     }
 
-    &-simple-circle-fill {
+    &-sim-standard {
         @extend %tt-icon;
         &:before { content: '\f313'; }
     }
 
-    &-simple-circle {
+    &-sim {
         @extend %tt-icon;
         &:before { content: '\f314'; }
     }
 
-    &-simple {
+    &-simple-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f315'; }
     }
 
-    &-simplybroadband-users-circle-fill {
+    &-simple-circle {
         @extend %tt-icon;
         &:before { content: '\f316'; }
     }
 
-    &-simplybroadband-users-circle {
+    &-simple {
         @extend %tt-icon;
         &:before { content: '\f317'; }
     }
 
-    &-simplybroadband-users {
+    &-simplybroadband-users-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f318'; }
     }
 
-    &-smart-circle-fill {
+    &-simplybroadband-users-circle {
         @extend %tt-icon;
         &:before { content: '\f319'; }
     }
 
-    &-smart-circle {
+    &-simplybroadband-users {
         @extend %tt-icon;
         &:before { content: '\f31a'; }
     }
 
-    &-smart {
+    &-smart-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f31b'; }
     }
 
-    &-smartsaving-circle-fill {
+    &-smart-circle {
         @extend %tt-icon;
         &:before { content: '\f31c'; }
     }
 
-    &-smartsaving-circle {
+    &-smart {
         @extend %tt-icon;
         &:before { content: '\f31d'; }
     }
 
-    &-smartsaving {
+    &-smartsaving-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f31e'; }
     }
 
-    &-socialmedia-circle-fill {
+    &-smartsaving-circle {
         @extend %tt-icon;
         &:before { content: '\f31f'; }
     }
 
-    &-socialmedia-circle {
+    &-smartsaving {
         @extend %tt-icon;
         &:before { content: '\f320'; }
     }
 
-    &-socialmedia {
+    &-socialmedia-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f321'; }
     }
 
-    &-solidtv-circle-fill {
+    &-socialmedia-circle {
         @extend %tt-icon;
         &:before { content: '\f322'; }
     }
 
-    &-solidtv-circle {
+    &-socialmedia {
         @extend %tt-icon;
         &:before { content: '\f323'; }
     }
 
-    &-solidtv {
+    &-solidtv-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f324'; }
     }
 
-    &-spanner-circle-fill {
+    &-solidtv-circle {
         @extend %tt-icon;
         &:before { content: '\f325'; }
     }
 
-    &-spanner-circle {
+    &-solidtv {
         @extend %tt-icon;
         &:before { content: '\f326'; }
     }
 
-    &-spanner {
+    &-spanner-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f327'; }
     }
 
-    &-speechbubble_1 {
+    &-spanner-circle {
         @extend %tt-icon;
         &:before { content: '\f328'; }
     }
 
-    &-speechbubble_2 {
+    &-spanner {
         @extend %tt-icon;
         &:before { content: '\f329'; }
     }
 
-    &-speechbubble_3 {
+    &-speechbubble_1 {
         @extend %tt-icon;
         &:before { content: '\f32a'; }
     }
 
-    &-speechbubble_4 {
+    &-speechbubble_2 {
         @extend %tt-icon;
         &:before { content: '\f32b'; }
     }
 
-    &-speed-17Mb-circle-fill {
+    &-speechbubble_3 {
         @extend %tt-icon;
         &:before { content: '\f32c'; }
     }
 
-    &-speed-17Mb-circle {
+    &-speechbubble_4 {
         @extend %tt-icon;
         &:before { content: '\f32d'; }
     }
 
-    &-speed-17Mb {
+    &-speed-17Mb-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f32e'; }
     }
 
-    &-speed-38Mb-circle-fill {
+    &-speed-17Mb-circle {
         @extend %tt-icon;
         &:before { content: '\f32f'; }
     }
 
-    &-speed-38Mb-circle {
+    &-speed-17Mb {
         @extend %tt-icon;
         &:before { content: '\f330'; }
     }
 
-    &-speed-38Mb {
+    &-speed-38Mb-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f331'; }
     }
 
-    &-speed-76Mb-circle-fill {
+    &-speed-38Mb-circle {
         @extend %tt-icon;
         &:before { content: '\f332'; }
     }
 
-    &-speed-76Mb-circle {
+    &-speed-38Mb {
         @extend %tt-icon;
         &:before { content: '\f333'; }
     }
 
-    &-speed-76Mb {
+    &-speed-76Mb-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f334'; }
     }
 
-    &-speedcheck1-circle-fill {
+    &-speed-76Mb-circle {
         @extend %tt-icon;
         &:before { content: '\f335'; }
     }
 
-    &-speedcheck1-circle {
+    &-speed-76Mb {
         @extend %tt-icon;
         &:before { content: '\f336'; }
     }
 
-    &-speedcheck1 {
+    &-speedcheck1-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f337'; }
     }
 
-    &-speedcheck2-circle-fill {
+    &-speedcheck1-circle {
         @extend %tt-icon;
         &:before { content: '\f338'; }
     }
 
-    &-speedcheck2-circle {
+    &-speedcheck1 {
         @extend %tt-icon;
         &:before { content: '\f339'; }
     }
 
-    &-speedcheck2 {
+    &-speedcheck2-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f33a'; }
     }
 
-    &-speedcheck3-circle-fill {
+    &-speedcheck2-circle {
         @extend %tt-icon;
         &:before { content: '\f33b'; }
     }
 
-    &-speedcheck3-circle {
+    &-speedcheck2 {
         @extend %tt-icon;
         &:before { content: '\f33c'; }
     }
 
-    &-speedcheck3 {
+    &-speedcheck3-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f33d'; }
     }
 
-    &-speedypayment-circle-fill {
+    &-speedcheck3-circle {
         @extend %tt-icon;
         &:before { content: '\f33e'; }
     }
 
-    &-speedypayment-circle {
+    &-speedcheck3 {
         @extend %tt-icon;
         &:before { content: '\f33f'; }
     }
 
-    &-speedypayment {
+    &-speedypayment-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f340'; }
     }
 
-    &-sports-circle-fill {
+    &-speedypayment-circle {
         @extend %tt-icon;
         &:before { content: '\f341'; }
     }
 
-    &-sports-circle {
+    &-speedypayment {
         @extend %tt-icon;
         &:before { content: '\f342'; }
     }
 
-    &-sports {
+    &-sports-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f343'; }
     }
 
-    &-spyware-circle-fill {
+    &-sports-circle {
         @extend %tt-icon;
         &:before { content: '\f344'; }
     }
 
-    &-spyware-circle {
+    &-sports {
         @extend %tt-icon;
         &:before { content: '\f345'; }
     }
 
-    &-spyware {
+    &-spyware-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f346'; }
     }
 
-    &-standardsim-circle-fill {
+    &-spyware-circle {
         @extend %tt-icon;
         &:before { content: '\f347'; }
     }
 
-    &-standardsim-circle {
+    &-spyware {
         @extend %tt-icon;
         &:before { content: '\f348'; }
     }
 
-    &-standardsim {
+    &-standardsim-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f349'; }
     }
 
-    &-star-circle-fill {
+    &-standardsim-circle {
         @extend %tt-icon;
         &:before { content: '\f34a'; }
     }
 
-    &-star-circle {
+    &-standardsim {
         @extend %tt-icon;
         &:before { content: '\f34b'; }
     }
 
-    &-star {
+    &-star-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f34c'; }
     }
 
-    &-starfilled-circle-fill {
+    &-star-circle {
         @extend %tt-icon;
         &:before { content: '\f34d'; }
     }
 
-    &-starfilled-circle {
+    &-star {
         @extend %tt-icon;
         &:before { content: '\f34e'; }
     }
 
-    &-starfilled {
+    &-starfilled-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f34f'; }
     }
 
-    &-starhollow-circle-fill {
+    &-starfilled-circle {
         @extend %tt-icon;
         &:before { content: '\f350'; }
     }
 
-    &-starhollow-circle {
+    &-starfilled {
         @extend %tt-icon;
         &:before { content: '\f351'; }
     }
 
-    &-starhollow {
+    &-starhollow-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f352'; }
     }
 
-    &-starter-circle-fill {
+    &-starhollow-circle {
         @extend %tt-icon;
         &:before { content: '\f353'; }
     }
 
-    &-starter-circle {
+    &-starhollow {
         @extend %tt-icon;
         &:before { content: '\f354'; }
     }
 
-    &-starter {
+    &-starter-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f355'; }
     }
 
-    &-stop-circle-fill {
+    &-starter-circle {
         @extend %tt-icon;
         &:before { content: '\f356'; }
     }
 
-    &-stop-circle {
+    &-starter {
         @extend %tt-icon;
         &:before { content: '\f357'; }
     }
 
-    &-stop {
+    &-stop-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f358'; }
     }
 
-    &-streaming-circle-fill {
+    &-stop-circle {
         @extend %tt-icon;
         &:before { content: '\f359'; }
     }
 
-    &-streaming-circle {
+    &-stop {
         @extend %tt-icon;
         &:before { content: '\f35a'; }
     }
 
-    &-streaming {
+    &-streaming-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f35b'; }
     }
 
-    &-supersafe-1-device-circle-fill {
+    &-streaming-circle {
         @extend %tt-icon;
         &:before { content: '\f35c'; }
     }
 
-    &-supersafe-1-device-circle {
+    &-streaming {
         @extend %tt-icon;
         &:before { content: '\f35d'; }
     }
 
-    &-supersafe-1-device {
+    &-supersafe-1-device-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f35e'; }
     }
 
-    &-supersafe-8-devices-circle-fill {
+    &-supersafe-1-device-circle {
         @extend %tt-icon;
         &:before { content: '\f35f'; }
     }
 
-    &-supersafe-8-devices-circle {
+    &-supersafe-1-device {
         @extend %tt-icon;
         &:before { content: '\f360'; }
     }
 
-    &-supersafe-8-devices {
+    &-supersafe-8-devices-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f361'; }
     }
 
-    &-supersafe-circle-fill {
+    &-supersafe-8-devices-circle {
         @extend %tt-icon;
         &:before { content: '\f362'; }
     }
 
-    &-supersafe-circle {
+    &-supersafe-8-devices {
         @extend %tt-icon;
         &:before { content: '\f363'; }
     }
 
-    &-supersafe {
+    &-supersafe-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f364'; }
     }
 
-    &-supersafeapp {
+    &-supersafe-circle {
         @extend %tt-icon;
         &:before { content: '\f365'; }
     }
 
-    &-support-circle-fill {
+    &-supersafe {
         @extend %tt-icon;
         &:before { content: '\f366'; }
     }
 
-    &-support-circle {
+    &-supersafeapp {
         @extend %tt-icon;
         &:before { content: '\f367'; }
     }
 
-    &-support {
+    &-support-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f368'; }
     }
 
-    &-survey-circle-fill {
+    &-support-circle {
         @extend %tt-icon;
         &:before { content: '\f369'; }
     }
 
-    &-survey-circle {
+    &-support {
         @extend %tt-icon;
         &:before { content: '\f36a'; }
     }
 
-    &-survey {
+    &-survey-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f36b'; }
     }
 
-    &-t-icon-circle-fill {
+    &-survey-circle {
         @extend %tt-icon;
         &:before { content: '\f36c'; }
     }
 
-    &-t-icon-circle {
+    &-survey {
         @extend %tt-icon;
         &:before { content: '\f36d'; }
     }
 
-    &-t-icon {
+    &-t-icon-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f36e'; }
     }
 
-    &-tablet-bundles-circle-fill {
+    &-t-icon-circle {
         @extend %tt-icon;
         &:before { content: '\f36f'; }
     }
 
-    &-tablet-bundles-circle {
+    &-t-icon {
         @extend %tt-icon;
         &:before { content: '\f370'; }
     }
 
-    &-tablet-bundles {
+    &-tablet-bundles-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f371'; }
     }
 
-    &-tabletprotection-circle-fill {
+    &-tablet-bundles-circle {
         @extend %tt-icon;
         &:before { content: '\f372'; }
     }
 
-    &-tabletprotection-circle {
+    &-tablet-bundles {
         @extend %tt-icon;
         &:before { content: '\f373'; }
     }
 
-    &-tabletprotection {
+    &-tabletprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f374'; }
     }
 
-    &-talk2goapp {
+    &-tabletprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f375'; }
     }
 
-    &-talktalk-labs-circle-fill {
+    &-tabletprotection {
         @extend %tt-icon;
         &:before { content: '\f376'; }
     }
 
-    &-talktalk-labs-circle {
+    &-talk2goapp {
         @extend %tt-icon;
         &:before { content: '\f377'; }
     }
 
-    &-talktalk-labs {
+    &-talktalk-labs-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f378'; }
     }
 
-    &-talktalklogo-circle-fill {
+    &-talktalk-labs-circle {
         @extend %tt-icon;
         &:before { content: '\f379'; }
     }
 
-    &-talktalklogo-circle {
+    &-talktalk-labs {
         @extend %tt-icon;
         &:before { content: '\f37a'; }
     }
 
-    &-talktalklogo {
+    &-talktalklogo-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f37b'; }
     }
 
-    &-talktalktv {
+    &-talktalklogo-circle {
         @extend %tt-icon;
         &:before { content: '\f37c'; }
     }
 
-    &-talktalktvapp {
+    &-talktalklogo {
         @extend %tt-icon;
         &:before { content: '\f37d'; }
     }
 
-    &-tasks-circle-fill {
+    &-talktalktv {
         @extend %tt-icon;
         &:before { content: '\f37e'; }
     }
 
-    &-tasks-circle {
+    &-talktalktvapp {
         @extend %tt-icon;
         &:before { content: '\f37f'; }
     }
 
-    &-tasks {
+    &-tasks-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f380'; }
     }
 
-    &-thumbsdown-circle-fill {
+    &-tasks-circle {
         @extend %tt-icon;
         &:before { content: '\f381'; }
     }
 
-    &-thumbsdown-circle {
+    &-tasks {
         @extend %tt-icon;
         &:before { content: '\f382'; }
     }
 
-    &-thumbsdown {
+    &-thumbsdown-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f383'; }
     }
 
-    &-thumbsup-circle-fill {
+    &-thumbsdown-circle {
         @extend %tt-icon;
         &:before { content: '\f384'; }
     }
 
-    &-thumbsup-circle {
+    &-thumbsdown {
         @extend %tt-icon;
         &:before { content: '\f385'; }
     }
 
-    &-thumbsup {
+    &-thumbsup-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f386'; }
     }
 
-    &-tick-circle-fill {
+    &-thumbsup-circle {
         @extend %tt-icon;
         &:before { content: '\f387'; }
     }
 
-    &-tick-circle {
+    &-thumbsup {
         @extend %tt-icon;
         &:before { content: '\f388'; }
     }
 
-    &-tick {
+    &-tick-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f389'; }
     }
 
-    &-time-circle-fill {
+    &-tick-circle {
         @extend %tt-icon;
         &:before { content: '\f38a'; }
     }
 
-    &-time-circle {
+    &-tick {
         @extend %tt-icon;
         &:before { content: '\f38b'; }
     }
 
-    &-time {
+    &-time-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f38c'; }
     }
 
-    &-transfer-circle-fill {
+    &-time-circle {
         @extend %tt-icon;
         &:before { content: '\f38d'; }
     }
 
-    &-transfer-circle {
+    &-time {
         @extend %tt-icon;
         &:before { content: '\f38e'; }
     }
 
-    &-transfer {
+    &-transfer-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f38f'; }
     }
 
-    &-trial-team-circle-fill {
+    &-transfer-circle {
         @extend %tt-icon;
         &:before { content: '\f390'; }
     }
 
-    &-trial-team-circle {
+    &-transfer {
         @extend %tt-icon;
         &:before { content: '\f391'; }
     }
 
-    &-trial-team {
+    &-trial-team-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f392'; }
     }
 
-    &-trojanhorse-circle-fill {
+    &-trial-team-circle {
         @extend %tt-icon;
         &:before { content: '\f393'; }
     }
 
-    &-trojanhorse-circle {
+    &-trial-team {
         @extend %tt-icon;
         &:before { content: '\f394'; }
     }
 
-    &-trojanhorse {
+    &-trojanhorse-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f395'; }
     }
 
-    &-tv-aip {
+    &-trojanhorse-circle {
         @extend %tt-icon;
         &:before { content: '\f396'; }
     }
 
-    &-tv-and-movies-circle-fill {
+    &-trojanhorse {
         @extend %tt-icon;
         &:before { content: '\f397'; }
     }
 
-    &-tv-and-movies-circle {
+    &-tv-aip {
         @extend %tt-icon;
         &:before { content: '\f398'; }
     }
 
-    &-tv-and-movies {
+    &-tv-and-movies-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f399'; }
     }
 
-    &-tv-boosts {
+    &-tv-and-movies-circle {
         @extend %tt-icon;
         &:before { content: '\f39a'; }
     }
 
-    &-tv-circle-fill {
+    &-tv-and-movies {
         @extend %tt-icon;
         &:before { content: '\f39b'; }
     }
 
-    &-tv-circle {
+    &-tv-boosts {
         @extend %tt-icon;
         &:before { content: '\f39c'; }
     }
 
-    &-tv-install-3m-apart {
+    &-tv-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f39d'; }
     }
 
-    &-tv-install-different-room {
+    &-tv-circle {
         @extend %tt-icon;
         &:before { content: '\f39e'; }
     }
 
-    &-tv-install-same-room {
+    &-tv-install-3m-apart {
         @extend %tt-icon;
         &:before { content: '\f39f'; }
     }
 
-    &-tv-lite-circle-fill {
+    &-tv-install-different-room {
         @extend %tt-icon;
         &:before { content: '\f3a0'; }
     }
 
-    &-tv-lite-circle {
+    &-tv-install-same-room {
         @extend %tt-icon;
         &:before { content: '\f3a1'; }
     }
 
-    &-tv-lite {
+    &-tv-lite-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3a2'; }
     }
 
-    &-tv-new {
+    &-tv-lite-circle {
         @extend %tt-icon;
         &:before { content: '\f3a3'; }
     }
 
-    &-tv-plus-circle-fill {
+    &-tv-lite {
         @extend %tt-icon;
         &:before { content: '\f3a4'; }
     }
 
-    &-tv-plus-circle {
+    &-tv-new {
         @extend %tt-icon;
         &:before { content: '\f3a5'; }
     }
 
-    &-tv-plus-r {
+    &-tv-plus-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3a6'; }
     }
 
-    &-tv-plus {
+    &-tv-plus-circle {
         @extend %tt-icon;
         &:before { content: '\f3a7'; }
     }
 
-    &-tv-r-plus-circle-fill {
+    &-tv-plus-r {
         @extend %tt-icon;
         &:before { content: '\f3a8'; }
     }
 
-    &-tv-r-plus-circle {
+    &-tv-plus {
         @extend %tt-icon;
         &:before { content: '\f3a9'; }
     }
 
-    &-tv-r-plus {
+    &-tv-r-plus-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3aa'; }
     }
 
-    &-tv {
+    &-tv-r-plus-circle {
         @extend %tt-icon;
         &:before { content: '\f3ab'; }
     }
 
-    &-tv2goapp {
+    &-tv-r-plus {
         @extend %tt-icon;
         &:before { content: '\f3ac'; }
     }
 
-    &-tvinstall-3m-apart {
+    &-tv {
         @extend %tt-icon;
         &:before { content: '\f3ad'; }
     }
 
-    &-tvinstall-different-room {
+    &-tv2goapp {
         @extend %tt-icon;
         &:before { content: '\f3ae'; }
     }
 
-    &-tvinstall-same-room {
+    &-tvinstall-3m-apart {
         @extend %tt-icon;
         &:before { content: '\f3af'; }
     }
 
-    &-tvplus-entertainmentboost {
+    &-tvinstall-different-room {
         @extend %tt-icon;
         &:before { content: '\f3b0'; }
     }
 
-    &-twitter-circle-fill {
+    &-tvinstall-same-room {
         @extend %tt-icon;
         &:before { content: '\f3b1'; }
     }
 
-    &-twitter {
+    &-tvplus-entertainmentboost {
         @extend %tt-icon;
         &:before { content: '\f3b2'; }
     }
 
-    &-ufo-circle-fill {
+    &-twitter-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3b3'; }
     }
 
-    &-ufo-circle {
+    &-twitter {
         @extend %tt-icon;
         &:before { content: '\f3b4'; }
     }
 
-    &-ufo-outline-circle-fill {
+    &-ufo-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3b5'; }
     }
 
-    &-ufo-outline-circle {
+    &-ufo-circle {
         @extend %tt-icon;
         &:before { content: '\f3b6'; }
     }
 
-    &-ufo-outline {
+    &-ufo-outline-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3b7'; }
     }
 
-    &-ufo {
+    &-ufo-outline-circle {
         @extend %tt-icon;
         &:before { content: '\f3b8'; }
     }
 
-    &-uk-coverage-circle-fill {
+    &-ufo-outline {
         @extend %tt-icon;
         &:before { content: '\f3b9'; }
     }
 
-    &-uk-coverage-circle {
+    &-ufo {
         @extend %tt-icon;
         &:before { content: '\f3ba'; }
     }
 
-    &-uk-coverage {
+    &-uk-coverage-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3bb'; }
     }
 
-    &-unlimited-circle-fill {
+    &-uk-coverage-circle {
         @extend %tt-icon;
         &:before { content: '\f3bc'; }
     }
 
-    &-unlimited-circle {
+    &-uk-coverage {
         @extend %tt-icon;
         &:before { content: '\f3bd'; }
     }
 
-    &-unlimited {
+    &-unlimited-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3be'; }
     }
 
-    &-upload-circle-fill {
+    &-unlimited-circle {
         @extend %tt-icon;
         &:before { content: '\f3bf'; }
     }
 
-    &-upload-circle {
+    &-unlimited {
         @extend %tt-icon;
         &:before { content: '\f3c0'; }
     }
 
-    &-upload {
+    &-upload-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3c1'; }
     }
 
-    &-video-circle-fill {
+    &-upload-circle {
         @extend %tt-icon;
         &:before { content: '\f3c2'; }
     }
 
-    &-video-circle {
+    &-upload {
         @extend %tt-icon;
         &:before { content: '\f3c3'; }
     }
 
-    &-video {
+    &-video-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3c4'; }
     }
 
-    &-view-circle-fill {
+    &-video-circle {
         @extend %tt-icon;
         &:before { content: '\f3c5'; }
     }
 
-    &-view-circle {
+    &-video {
         @extend %tt-icon;
         &:before { content: '\f3c6'; }
     }
 
-    &-view {
+    &-view-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3c7'; }
     }
 
-    &-virusprotection-circle-fill {
+    &-view-circle {
         @extend %tt-icon;
         &:before { content: '\f3c8'; }
     }
 
-    &-virusprotection-circle {
+    &-view {
         @extend %tt-icon;
         &:before { content: '\f3c9'; }
     }
 
-    &-virusprotection {
+    &-virusprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3ca'; }
     }
 
-    &-voicemail-circle-fill {
+    &-virusprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f3cb'; }
     }
 
-    &-voicemail-circle {
+    &-virusprotection {
         @extend %tt-icon;
         &:before { content: '\f3cc'; }
     }
 
-    &-voicemail {
+    &-voicemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3cd'; }
     }
 
-    &-volume-circle-fill {
+    &-voicemail-circle {
         @extend %tt-icon;
         &:before { content: '\f3ce'; }
     }
 
-    &-volume-circle {
+    &-voicemail {
         @extend %tt-icon;
         &:before { content: '\f3cf'; }
     }
 
-    &-volume {
+    &-volume-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3d0'; }
     }
 
-    &-watch-instantly-circle-fill {
+    &-volume-circle {
         @extend %tt-icon;
         &:before { content: '\f3d1'; }
     }
 
-    &-watch-instantly-circle {
+    &-volume {
         @extend %tt-icon;
         &:before { content: '\f3d2'; }
     }
 
-    &-watch-instantly {
+    &-watch-instantly-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3d3'; }
     }
 
-    &-watch-on-stb-tv {
+    &-watch-instantly-circle {
         @extend %tt-icon;
         &:before { content: '\f3d4'; }
     }
 
-    &-weather-circle-fill {
+    &-watch-instantly {
         @extend %tt-icon;
         &:before { content: '\f3d5'; }
     }
 
-    &-weather-circle {
+    &-watch-on-stb-tv {
         @extend %tt-icon;
         &:before { content: '\f3d6'; }
     }
 
-    &-weather {
+    &-weather-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3d7'; }
     }
 
-    &-word-circle-fill {
+    &-weather-circle {
         @extend %tt-icon;
         &:before { content: '\f3d8'; }
     }
 
-    &-word-circle {
+    &-weather {
         @extend %tt-icon;
         &:before { content: '\f3d9'; }
     }
 
-    &-word {
+    &-word-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3da'; }
     }
 
-    &-world-circle-fill {
+    &-word-circle {
         @extend %tt-icon;
         &:before { content: '\f3db'; }
     }
 
-    &-world-circle {
+    &-word {
         @extend %tt-icon;
         &:before { content: '\f3dc'; }
     }
 
-    &-world {
+    &-world-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3dd'; }
     }
 
-    &-worm-circle-fill {
+    &-world-circle {
         @extend %tt-icon;
         &:before { content: '\f3de'; }
     }
 
-    &-worm-circle {
+    &-world {
         @extend %tt-icon;
         &:before { content: '\f3df'; }
     }
 
-    &-worm {
+    &-worm-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3e0'; }
     }
 
-    &-writeemail-circle-fill {
+    &-worm-circle {
         @extend %tt-icon;
         &:before { content: '\f3e1'; }
     }
 
-    &-writeemail-circle {
+    &-worm {
         @extend %tt-icon;
         &:before { content: '\f3e2'; }
     }
 
-    &-writeemail {
+    &-writeemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3e3'; }
     }
 
-    &-x-circle-fill {
+    &-writeemail-circle {
         @extend %tt-icon;
         &:before { content: '\f3e4'; }
     }
 
-    &-x-circle {
+    &-writeemail {
         @extend %tt-icon;
         &:before { content: '\f3e5'; }
     }
 
-    &-x-slim {
+    &-x-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3e6'; }
     }
 
-    &-x {
+    &-x-circle {
         @extend %tt-icon;
         &:before { content: '\f3e7'; }
     }
 
-    &-xls-circle-fill {
+    &-x-slim {
         @extend %tt-icon;
         &:before { content: '\f3e8'; }
     }
 
-    &-xls-circle {
+    &-x {
         @extend %tt-icon;
         &:before { content: '\f3e9'; }
     }
 
-    &-xls {
+    &-xls-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3ea'; }
+    }
+
+    &-xls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f3eb'; }
+    }
+
+    &-xls {
+        @extend %tt-icon;
+        &:before { content: '\f3ec'; }
     }
 
     }
