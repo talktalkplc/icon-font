@@ -1,7 +1,7 @@
 //scss-lint:disable SelectorFormat
 
-$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.282.0/fonts/inlife/' !default;
-$hash: '0c36ecb435f51e591d92061bf65935cc';
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.283.0/fonts/inlife/' !default;
+$hash: 'aa251a2b40078cc5113f3bd7a30a60ca';
 
 @font-face {
     font-family: 'TalkTalkIcons';
@@ -3490,284 +3490,324 @@ $hash: '0c36ecb435f51e591d92061bf65935cc';
         &:before { content: '\f3b4'; }
     }
 
-    &-ufo-circle-fill {
+    &-ufo-boost {
         @extend %tt-icon;
         &:before { content: '\f3b5'; }
     }
 
-    &-ufo-circle {
+    &-ufo-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3b6'; }
     }
 
-    &-ufo-outline-circle-fill {
+    &-ufo-circle {
         @extend %tt-icon;
         &:before { content: '\f3b7'; }
     }
 
-    &-ufo-outline-circle {
+    &-ufo-download {
         @extend %tt-icon;
         &:before { content: '\f3b8'; }
     }
 
-    &-ufo-outline {
+    &-ufo-gaming {
         @extend %tt-icon;
         &:before { content: '\f3b9'; }
     }
 
-    &-ufo {
+    &-ufo-group {
         @extend %tt-icon;
         &:before { content: '\f3ba'; }
     }
 
-    &-uk-coverage-circle-fill {
+    &-ufo-hd {
         @extend %tt-icon;
         &:before { content: '\f3bb'; }
     }
 
-    &-uk-coverage-circle {
+    &-ufo-outline-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3bc'; }
     }
 
-    &-uk-coverage {
+    &-ufo-outline-circle {
         @extend %tt-icon;
         &:before { content: '\f3bd'; }
     }
 
-    &-unlimited-circle-fill {
+    &-ufo-outline {
         @extend %tt-icon;
         &:before { content: '\f3be'; }
     }
 
-    &-unlimited-circle {
+    &-ufo-photo {
         @extend %tt-icon;
         &:before { content: '\f3bf'; }
     }
 
-    &-unlimited {
+    &-ufo-unlimited {
         @extend %tt-icon;
         &:before { content: '\f3c0'; }
     }
 
-    &-upload-circle-fill {
+    &-ufo-video-call {
         @extend %tt-icon;
         &:before { content: '\f3c1'; }
     }
 
-    &-upload-circle {
+    &-ufo {
         @extend %tt-icon;
         &:before { content: '\f3c2'; }
     }
 
-    &-upload {
+    &-uk-coverage-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3c3'; }
     }
 
-    &-video-circle-fill {
+    &-uk-coverage-circle {
         @extend %tt-icon;
         &:before { content: '\f3c4'; }
     }
 
-    &-video-circle {
+    &-uk-coverage {
         @extend %tt-icon;
         &:before { content: '\f3c5'; }
     }
 
-    &-video {
+    &-unlimited-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3c6'; }
     }
 
-    &-view-circle-fill {
+    &-unlimited-circle {
         @extend %tt-icon;
         &:before { content: '\f3c7'; }
     }
 
-    &-view-circle {
+    &-unlimited {
         @extend %tt-icon;
         &:before { content: '\f3c8'; }
     }
 
-    &-view {
+    &-upload-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3c9'; }
     }
 
-    &-virusprotection-circle-fill {
+    &-upload-circle {
         @extend %tt-icon;
         &:before { content: '\f3ca'; }
     }
 
-    &-virusprotection-circle {
+    &-upload {
         @extend %tt-icon;
         &:before { content: '\f3cb'; }
     }
 
-    &-virusprotection {
+    &-video-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3cc'; }
     }
 
-    &-voicemail-circle-fill {
+    &-video-circle {
         @extend %tt-icon;
         &:before { content: '\f3cd'; }
     }
 
-    &-voicemail-circle {
+    &-video {
         @extend %tt-icon;
         &:before { content: '\f3ce'; }
     }
 
-    &-voicemail {
+    &-view-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3cf'; }
     }
 
-    &-volume-circle-fill {
+    &-view-circle {
         @extend %tt-icon;
         &:before { content: '\f3d0'; }
     }
 
-    &-volume-circle {
+    &-view {
         @extend %tt-icon;
         &:before { content: '\f3d1'; }
     }
 
-    &-volume {
+    &-virusprotection-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3d2'; }
     }
 
-    &-watch-instantly-circle-fill {
+    &-virusprotection-circle {
         @extend %tt-icon;
         &:before { content: '\f3d3'; }
     }
 
-    &-watch-instantly-circle {
+    &-virusprotection {
         @extend %tt-icon;
         &:before { content: '\f3d4'; }
     }
 
-    &-watch-instantly {
+    &-voicemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3d5'; }
     }
 
-    &-watch-on-stb-tv {
+    &-voicemail-circle {
         @extend %tt-icon;
         &:before { content: '\f3d6'; }
     }
 
-    &-weather-circle-fill {
+    &-voicemail {
         @extend %tt-icon;
         &:before { content: '\f3d7'; }
     }
 
-    &-weather-circle {
+    &-volume-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3d8'; }
     }
 
-    &-weather {
+    &-volume-circle {
         @extend %tt-icon;
         &:before { content: '\f3d9'; }
     }
 
-    &-word-circle-fill {
+    &-volume {
         @extend %tt-icon;
         &:before { content: '\f3da'; }
     }
 
-    &-word-circle {
+    &-watch-instantly-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3db'; }
     }
 
-    &-word {
+    &-watch-instantly-circle {
         @extend %tt-icon;
         &:before { content: '\f3dc'; }
     }
 
-    &-world-circle-fill {
+    &-watch-instantly {
         @extend %tt-icon;
         &:before { content: '\f3dd'; }
     }
 
-    &-world-circle {
+    &-watch-on-stb-tv {
         @extend %tt-icon;
         &:before { content: '\f3de'; }
     }
 
-    &-world {
+    &-weather-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3df'; }
     }
 
-    &-worm-circle-fill {
+    &-weather-circle {
         @extend %tt-icon;
         &:before { content: '\f3e0'; }
     }
 
-    &-worm-circle {
+    &-weather {
         @extend %tt-icon;
         &:before { content: '\f3e1'; }
     }
 
-    &-worm {
+    &-word-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3e2'; }
     }
 
-    &-writeemail-circle-fill {
+    &-word-circle {
         @extend %tt-icon;
         &:before { content: '\f3e3'; }
     }
 
-    &-writeemail-circle {
+    &-word {
         @extend %tt-icon;
         &:before { content: '\f3e4'; }
     }
 
-    &-writeemail {
+    &-world-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3e5'; }
     }
 
-    &-x-circle-fill {
+    &-world-circle {
         @extend %tt-icon;
         &:before { content: '\f3e6'; }
     }
 
-    &-x-circle {
+    &-world {
         @extend %tt-icon;
         &:before { content: '\f3e7'; }
     }
 
-    &-x-slim {
+    &-worm-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3e8'; }
     }
 
-    &-x {
+    &-worm-circle {
         @extend %tt-icon;
         &:before { content: '\f3e9'; }
     }
 
-    &-xls-circle-fill {
+    &-worm {
         @extend %tt-icon;
         &:before { content: '\f3ea'; }
     }
 
-    &-xls-circle {
+    &-writeemail-circle-fill {
         @extend %tt-icon;
         &:before { content: '\f3eb'; }
     }
 
-    &-xls {
+    &-writeemail-circle {
         @extend %tt-icon;
         &:before { content: '\f3ec'; }
+    }
+
+    &-writeemail {
+        @extend %tt-icon;
+        &:before { content: '\f3ed'; }
+    }
+
+    &-x-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f3ee'; }
+    }
+
+    &-x-circle {
+        @extend %tt-icon;
+        &:before { content: '\f3ef'; }
+    }
+
+    &-x-slim {
+        @extend %tt-icon;
+        &:before { content: '\f3f0'; }
+    }
+
+    &-x {
+        @extend %tt-icon;
+        &:before { content: '\f3f1'; }
+    }
+
+    &-xls-circle-fill {
+        @extend %tt-icon;
+        &:before { content: '\f3f2'; }
+    }
+
+    &-xls-circle {
+        @extend %tt-icon;
+        &:before { content: '\f3f3'; }
+    }
+
+    &-xls {
+        @extend %tt-icon;
+        &:before { content: '\f3f4'; }
     }
 
     }
