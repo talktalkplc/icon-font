@@ -1,7 +1,7 @@
 //scss-lint:disable SelectorFormat
 
-$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.586.0/fonts/inlife/' !default;
-$hash: 'b258c5371e77044a470e022cdce5110b';
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.587.0/fonts/inlife/' !default;
+$hash: 'afc5f558f0679283fd95556cd76843ad';
 
 @font-face {
     font-family: 'TalkTalkIcons';
@@ -1050,7 +1050,7 @@ $hash: 'b258c5371e77044a470e022cdce5110b';
         &:before { content: '\f1cc'; }
     }
 
-    &-checkbox {
+    &-checkbox-think {
         @extend %tt-icon;
         &:before { content: '\f1cd'; }
     }
