@@ -1,7 +1,7 @@
 //scss-lint:disable SelectorFormat
 
-$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.594.0/fonts/inlife/' !default;
-$hash: '90975d146b3defce72ed6e75d0540a96';
+$tt-icon-font-path: '//m1.ttxm.co.uk/fonts/icon/1.595.0/fonts/inlife/' !default;
+$hash: '171e8c24d0c335fee0195df414e0438b';
 
 @font-face {
     font-family: 'TalkTalkIcons';
@@ -2240,7 +2240,7 @@ $hash: '90975d146b3defce72ed6e75d0540a96';
         &:before { content: '\f2ba'; }
     }
 
-    &-mobile_phone_website_icon {
+    &-mobile_icon {
         @extend %tt-icon;
         &:before { content: '\f2bb'; }
     }
